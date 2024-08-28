@@ -1,5 +1,4 @@
 [![Legion-Killfeed-Rated-Best.png](https://i.postimg.cc/5NGsshBK/Legion-Killfeed-Rated-Best.png)](https://postimg.cc/hfL8j33V) [![globe.gif](https://i.postimg.cc/2yjwBVjK/globe.gif)](https://postimg.cc/ph78wVFf)
-[![Best DayZ Killfeed for Xbox and Playstation](https://www.reddit.com/user/Soul_Lags/comments/1f0ly1d/are_you_looking_for_the_best_dayz_discord/)](https://www.reddit.com/user/Soul_Lags/comments/1f0ly1d/are_you_looking_for_the_best_dayz_discord/)
 # FAQ Frequently Asked Questions - Legion Killfeed
 
 ## 1. What is a killfeed in DayZ?
