@@ -342,3 +342,5 @@
 		 View servers bounty list
 	- `/bounty pay`
 		 Pay a bounty, either your own or someone else's
+
+[![Legion Killfeed](https://killfeed.co/a/img/lgn.webp)](https://killfeed.co)
