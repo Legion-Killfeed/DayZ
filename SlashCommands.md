@@ -129,5 +129,5 @@
 | `/locate` | DM last logged location to linked player |
 | `/last restart` | Get last restart, next restart, and player count |
 
-[![LegionKillfeed](https://killfeed.co/a/i/lkb.webp)](https://killfeed.co) ![Legion Killfeed Logo](https://killfeed.co/a/i/LK.gif)
+[![LegionKillfeed](https://killfeed.co/a/i/lkb.png)](https://killfeed.co) ![Legion Killfeed Logo](https://killfeed.co/a/i/LK.gif)
 
