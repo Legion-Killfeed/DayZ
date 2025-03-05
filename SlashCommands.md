@@ -1,180 +1,85 @@
-# Legion Killfeed's
-## Slash Commands
-### Owner
-- `/reset stats player` – Wipe a player stats. [WARNING: This can't be undone!!!]
-- `/reset stats server` – Wipe a servers stats. [WARNING: This can't be undone!!!]
-### Setup 
-- `/setup token` – Add Server/s using a Nitrado Token (TOKEN USER ONLY)
-- `/setup channels` – Automated set up (channel creation + channel perms) required to activate killfeed (TOKEN USER ONLY)
-- `/setup activate` – Switch killfeed process back on if for any reason it's been switched off by the bot. (TOKEN USER ONLY)
-- `/set discord` – Assign discord server (TOKEN USER ONLY)
-### Additional Settings 
-- `/settings channels assign` – Assign feed to channel (Admin+)
-- `/settings channels create` – Add a channel from the list of channels for your selected server (Admin+)
-- `/settings flag_logs` – Flag build logs to separate channel (Admin)
-- `/legion autostart` – auto restart your server if stopped for 10mins
-### Admin
-### Settings for Killfeed (Admin)
-- `/settings view` – View your server's settings in Legion's database.
-- `/settings admin roles` – Add killfeed permission to a discord role from a list of permissions (Admin)
-- `/settings linked role` – Role that is assigned to members when they link their account
-- `/settings feeds clean` – Enable/Disable purge messages for Status, Heatmaps, Leaderboards
-- `/settings economy` – All economy settings except bounties
-- `/settings bounty` – Assign your servers default bounty amount (required to enable bounty channel)
-- `/settings plon` – Enable/Disable players use of `/plon` command
-- `/settings set_plon_prefix` – change the prefix to the players online voice channel count
-- `/logs autofeed` – Assign Auto Download Logs Channel
-### Styling 
-- `/legion colours view` – See what colours we have available for embeds
-- `/legion colours assign` – Assign embed colour to be displayed on embeds where-ever there is no pre-defined embed colour
-- `/settings add logo` – Add or remove a logo via URL for a selected server to be displayed on embeds where-ever there is a spare image slot available
-- `/settings locations` – Location settings for multiple feeds *a lot of options* (Admin)
-### Rename Options (Admin)
-- `/settings rename` – Change the server's name in the killfeed
-- `/server details edit` – Change server's name/description
-- `/server details view` – View server's name & description + other details
-### Scheduler (Only Damage Working)
-- `/schedule server restarts` – Schedule automated server restarts via bot. (WIP)
-- `/schedule damage cancel` – Cancel the automated base damage scheduler (Admin)
-- `/schedule damage enabled` – Set the day, time and timezone for base damage to be turned on (Admin)
-- `/schedule damage disabled` – Set the day, time and timezone for base damage to be turned off (Admin)
-### Full Map Auto Ban 
-- `/settings mode autoban` – Autoban on Kill, Autoban on Death, No Autoban (Admin)
-- `/settings mode ignore` – Gamertags that are allowed to kill when autoban is on (Moderator)
-### Trader/Shoppi (Trader + Moderator + Admin + Founder + Owner) (BUGGED RIGHT NOW)
-- `/shoppi admin location` – Set trader location for items to spawn or disable to allow anywhere
-- `/shoppi admin status` – View Shoppi Status, pending orders, etc
-- `/shoppi config start` – Sends config files for trader that is coming soon
-- `/shoppi config setup` – Setup config (requires file) and assign channels for trader
-- `/shoppi config colour` – Set colour of embeds
-- `/shoppi config restarts` – Set time between restarts and whether bot restarts or not
-### Types.xml File Editing 
-- `/types local validate` – Validate Local XML file (Local file, not on server)
-- `/types local boost` – Mass boost all nominals and mins to 'x' amount, eg, boost 100 to 1000 (Local file, not on server)
-- `/types local edit` – Bulk Edit Local Types.XML file by category, tag, usage, or value. (Local file, not on server)
-- `/types server boost` – Mass boost all nominals and mins to 'x' amount, eg, boost 100 to 1000 (Live server code)
-- `/updates` – Compare your files with the latest github version and get a list of missing items from your files (useful for updates)
-### Staff
-- `/admin getid` – Get the ID of a member (Usually used for devs)
-- `/admin search` – Search for a gamertag or member
-- `/admin tracker` – Track command usage
-- `/admin plocs` – Current online player locations
-- `/admin force link` – Force link someone's discord to their gamertag
-- `/admin force unlink` – Force unlink a members discord from their gamertag
-- `/base damage` – Turn base & container damage on/off on your server
-- `/car_wipe` – This command does a car wipe, server restarts twice
-- `/last locations` – Last 20 locations for a gamertag
-- `/legion embed` – Send a message in an embed (must be less than 4000 characters)
-- `/logs download current` – Download Current Logfile
-- `/logs download kills` – Download Current Kills Only Logfile
-- `/logs download all` – Download All Logfiles
-- `/status` – Get the last restart and status of all servers
-### Economy 
-- `/economy amoney user` – Allows an admin to give or remove money from a user's account.
-- `/economy amoney all` – Allows an admin to give or remove money from all linked accounts.
-- `/economy amoney reset` – Allows an admin to wipe money on.
-- `/economy amoney default` – Allows an admin to assign default balances.
-### File Editing 
-- `/gameplay edit` – Edit your cfggameplay.json file for your selected server (Add or Remove) spawn gear/object spawner files in the cfggameplay.json file
-- `/admin spawner add` – Add items to spawn in via Events.xml & CfgEventSpawns.xml
-- `/admin spawner remove` – Remove items from spawn via Events.xml & CfgEventSpawns.xml
-- `/generate teleports` – Place 2 separate items where you want the teleport location to be and the safe location to be
-- `/generate qrcode` – Supply a URL, coords and select your compass orientation to get an in-game scannable QR Code Sign
-### Nitrado's Webinterface 
-- `/webinterface update` – Update options on Nitrado's web interface
-- `/webinterface tasks list` – View your servers Nitrado-handled automated tasks
-- `/webinterface tasks add` – Add Nitrado-handled automated tasks
-- `/webinterface tasks delete` – Delete Nitrado-handled automated tasks from your server
-- `/webinterface upload` – Upload file to folder on your server
-- `/webinterface download` – Download file from any folder on your server
-- `/legion restart` – Restart your server
-- `/legion stop` – Stop your server
-- `/legion remove` – Remove stop/restart file
-- `/legion restartloop` – Break a restart loop for your server
-### Base Radar 
-- `/base radar add` – Create a base radar for your selected server
-- `/base radar edit` – Edit a base radar for your selected server
-- `/base radar delete` – Delete a base radar from your selected server
-- `/base radar list` – List base radars for your selected server
-### Trader/Shoppi 
-- `/shoppi mode` – Enable/Disable the use of Shoppi Auto Trader
-- `/shoppi items` – Sends item details, attachments, ammo, mags
-- `/shoppi pricing` – Sends pricing to trader channel
-### Heatmaps 
-- `/heatmap Kills` - PVP kills heatmap
-- `/heatmap Damage` - PVP damage heatmap
-- `/heatmap Locations` - Heatmap of player locations
-- `/heatmap Pinmap` - Pinpoint map of player locations
-- `/heatmap Nitrado Usage` - CPU/Ram usage
-### Gatekeeper (+ Owner + Founder)
-### Banning 
-- `/add ban` – Ban gamertag/gamertags
-- `/remove ban` – Unban gamertag/gamertags
-- `/view bans` – View banlist
-### Whitelisting 
-- `/add whitelist` – Whitelist gamertag/gamertags
-- `/remove whitelist` – Unwhitelist gamertag/gamertags
-- `/view whitelist` – View Whitelist
-### Misc Whitelisting 
-- `/add info_whitelist` – No description provided.
-- `/add upload_whitelist` – Upload a file to add gamertags to the whitelist
-- `/remove rebuild_whitelist` – Rebuild Whitelist
-### Priority 
-- `/add priority` – Prioritize gamertag/gamertags
-- `/remove priority` – Unpriority gamertag/gamertags
-- `/view priority` – View priority list
-### General (No Perms Needed)
-- `/subscribe` – Legion Killfeed Premium Subscription Price
-- `/help` – Select a category to view help commands
-- `/info` – Bot information
-- `/killfeed advert` – Legion Killfeed Advertisement
-- `/killfeed support` – Get a discord invite to Legion Killfeed's Support discord
-- `/bug` – Submit a bug report to the developers
-- `/fight` – Challenge a user to a fight, the loser will be timed out.
-- `/godmode` – A fake 'God Mode' command for the lols
-- `/plon` – Players online (Reply is slow for accuracy)
-- `/locate` – DM linked player their last logged location
-- `/last restart` – Get the last restart, next restart and current players online
-### Stats
-- `/global` – Global leaderboards
-- `/leaderboard` – Server's Leaderboard
-- `/link` – Link your discord to your gamertag
-- `/unlink` – Unlink your discord from your gamertag
-- `/stats` – Get stats for your selected server
-- `/mine` – Get stats for your selected server
-### Submissions 
-- `/legion submit suggestion` – Send a killfeed suggestion/feature request to Legion's discord
-- `/legion submit roast` – Submit `Death Roasts` for victim insults to Legion's discord
-### Shoppi/Trader (Player Commands) BUGGED RIGHT NOW 
-- `/shoppi cart add` – Add items to cart before checkout
-- `/shoppi cart clear` – Remove items/items from cart before checkout
-- `/shoppi cart view` – View items in cart before checkout
-- `/shoppi cart checkout` – Checkout with cart (Pay & Upload json)
-- `/shoppi delivery` – Set coords for items to spawn
-### Base Ignore (Base Owner & Moderators+)
-- `/base ignore add` – Add a gamertag to the base radar ignore list
-- `/base ignore remove` – Remove a gamertag from the base radar ignore list
-- `/base ignore info` – List base radar info your current channel's base radar.
-### Money (Must be in economy channel)
-- `/economy help` – View the list of command and a brief description.
-- `/economy leaderboard` – Economy leaderboard (Linked members only)
-### Banking (Linked Members)
-- `/pay` – Pay someone (Must have played the server)
-- `/withdraw` – Withdraw money from your related server's bank
-- `/deposit` – Deposit money to your bank
-- `/bal` – Check your balance
-### Earning (Linked Members)
-- `/daily` – Claim your daily reward
-- `/fish` – Go fishing to earn money
-- `/work` – Work to earn money
-- `/rob` – Rob up to 50 percentage of cash from another user
-### Gambling (Linked Members)
-- `/slots` – Play slots
-- `/roulette` – Play a roulette game
-- `/rps` – Play a game of rock-paper-scissors
-- `/blackjack` – Play a game of blackjack
-- `/diceroll` – Play a dice roll game
-### Bounties (Must be in economy channel)
-- `/bounty add` – Add a bounty to someone
-- `/bounty view` – View servers bounty list
-- `/bounty pay` – Pay a bounty, either your own or someone else's
+[1;36m# 🌟 Legion Killfeed's Slash Commands[0m  
+
+[1;31m## 🔥 Owner Commands[0m  
+🚨 **WARNING:** Reset actions cannot be undone!  
+- [1;31m`/reset stats player`[0m – Wipe a player's stats.  
+- [1;31m`/reset stats server`[0m – Wipe a server's stats.  
+
+[1;32m## ⚙️ Setup Commands (Token Users Only)[0m  
+- [1;32m`/setup token`[0m – Add servers using a Nitrado Token.  
+- [1;32m`/setup channels`[0m – Automated setup (channel creation + permissions).  
+- [1;32m`/setup activate`[0m – Reactivate killfeed if the bot disables it.  
+- [1;32m`/set discord`[0m – Assign Discord server.  
+
+[1;33m## 🔧 Additional Settings (Admin+)[0m  
+- [1;33m`/settings channels assign`[0m – Assign feed to a channel.  
+- [1;33m`/settings channels create`[0m – Create a feed channel for your server.  
+- [1;33m`/settings flag_logs`[0m – Flag build logs to a separate channel.  
+- [1;33m`/legion autostart`[0m – Auto-restart server if stopped for 10 minutes.  
+
+[1;34m## 🔹 Admin Commands[0m  
+### 🎯 **Killfeed Settings (Admin Only)**  
+- [1;34m`/settings view`[0m – View server settings.  
+- [1;34m`/settings admin roles`[0m – Assign killfeed permissions to a Discord role.  
+- [1;34m`/settings linked role`[0m – Assign role to linked players.  
+- [1;34m`/settings feeds clean`[0m – Enable/disable purge messages.  
+- [1;34m`/settings economy`[0m – Modify economy settings.  
+- [1;34m`/settings bounty`[0m – Set default bounty amount.  
+
+### 🎨 **Styling & Customization**  
+- [1;36m`/legion colours view`[0m – View available embed colors.  
+- [1;36m`/legion colours assign`[0m – Assign default embed colors.  
+- [1;36m`/settings add logo`[0m – Add/remove a logo for embeds.  
+
+### 🛠 **Server Customization (Admin Only)**  
+- [1;35m`/settings rename`[0m – Rename server in killfeed.  
+- [1;35m`/server details edit`[0m – Edit server name/description.  
+- [1;35m`/server details view`[0m – View server details.  
+
+### ⏳ **Scheduler (Only Damage Working)**  
+- [1;33m`/schedule server restarts`[0m – Schedule automated restarts. *(WIP)*  
+- [1;33m`/schedule damage cancel`[0m – Cancel base damage schedule.  
+- [1;33m`/schedule damage enabled`[0m – Enable base damage at a set time.  
+- [1;33m`/schedule damage disabled`[0m – Disable base damage at a set time.  
+
+[1;31m## 🚨 Auto Ban Mode[0m  
+- [1;31m`/settings mode autoban`[0m – Configure Autoban (Kill, Death, None).  
+- [1;31m`/settings mode ignore`[0m – Allow specific gamertags to bypass autoban.  
+
+[1;32m## 🛒 Trader/Shoppi (Currently Bugged)[0m  
+- [1;32m`/shoppi admin location`[0m – Set trader item spawn location.  
+- [1;32m`/shoppi admin status`[0m – View trader status & pending orders.  
+- [1;32m`/shoppi config start`[0m – Get upcoming trader config files.  
+
+[1;33m## 📂 Types.xml File Editing[0m  
+- [1;33m`/types local validate`[0m – Validate local XML file.  
+- [1;33m`/types local boost`[0m – Mass boost item spawn values.  
+- [1;33m`/types server boost`[0m – Boost item spawns on live server.  
+- [1;33m`/updates`[0m – Compare local files with the latest GitHub version.  
+
+[1;34m## 🛠 Staff Tools[0m  
+- [1;34m`/admin getid`[0m – Get a member's ID.  
+- [1;34m`/admin search`[0m – Search for a gamertag or member.  
+- [1;34m`/admin tracker`[0m – Track command usage.  
+- [1;34m`/admin force link`[0m – Force link a gamertag to Discord.  
+- [1;34m`/logs download current`[0m – Download current logs.  
+
+[1;32m## 💰 Economy & Banking[0m  
+- [1;32m`/economy amoney user`[0m – Add/remove money from a user.  
+- [1;32m`/economy amoney all`[0m – Add/remove money from all users.  
+- [1;32m`/pay`[0m – Pay another player.  
+- [1;32m`/withdraw`[0m – Withdraw from in-game bank.  
+- [1;32m`/deposit`[0m – Deposit money to bank.  
+- [1;32m`/bal`[0m – Check balance.  
+
+[1;36m## 🎯 Heatmaps & Stats[0m  
+- [1;36m`/heatmap kills`[0m – View PvP kill heatmap.  
+- [1;36m`/heatmap damage`[0m – View PvP damage heatmap.  
+- [1;36m`/heatmap locations`[0m – View player location heatmap.  
+
+[1;35m## 🎭 Misc & Fun[0m  
+- [1;35m`/fight`[0m – Challenge another player to a fight.  
+- [1;35m`/godmode`[0m – Fake 'God Mode' command for the lols.  
+- [1;35m`/plon`[0m – Check online players (slow but accurate).  
+- [1;35m`/locate`[0m – DM linked player their last logged location.  
+
