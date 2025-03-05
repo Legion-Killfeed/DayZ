@@ -47,6 +47,7 @@
 | `/legion colours assign` | Assign embed color for unspecified embeds |
 | `/settings add logo` | Add/remove a logo via URL for a selected server |
 | `/settings locations` | Location settings for multiple feeds (Admin) |
+
 ![settings locations](https://killfeed.co/a/i/location_options.png)
 
 ### Rename Options (Admin)
