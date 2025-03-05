@@ -1,4 +1,4 @@
-# [Legion Killfeed's Slash Commands](https://killfeed.co/commands) ![Legion Killfeed Logo](https://killfeed.co/a/img/logo.gif)
+# [Legion Killfeed's Slash Commands](https://killfeed.co/commands)
 ### Owner
 - `/reset stats player`
 	- Wipe a player stats. [WARNING: This can't be undone!!!]
@@ -343,4 +343,4 @@
 	- `/bounty pay`
 		 Pay a bounty, either your own or someone else's
 
-[![Legion Killfeed](https://killfeed.co/a/img/lgn.webp)](https://killfeed.co)
+[![Legion Killfeed](https://killfeed.co/a/img/lkb.webp)](https://killfeed.co) ![Legion Killfeed Logo](https://killfeed.co/a/img/logo.gif)
