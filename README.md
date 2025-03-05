@@ -1,12 +1,5 @@
 [![Legion-Killfeed-Rated-Best.png](https://i.postimg.cc/5NGsshBK/Legion-Killfeed-Rated-Best.png)](https://postimg.cc/hfL8j33V) [![globe.gif](https://i.postimg.cc/2yjwBVjK/globe.gif)](https://postimg.cc/ph78wVFf)
 
-## [Killfeed Website](https://killfeed.co/)
-## [Commands](https://killfeed.co/commands)
-## [FAQs](https://killfeed.co/faqs)
-## [Legal](https://killfeed.co/legal)
-## [Economy & Trader Tool](https://killfeed.co/tools)
-## [Video Tutorials](https://killfeed.co/videos)
-
 # [Legion Killfeed's Slash Commands](https://killfeed.co/commands)
 
 ## Owner Commands
@@ -139,6 +132,13 @@
 | `/last restart` | Get last restart, next restart, and player count |
 
 [![LegionKillfeed](https://killfeed.co/a/i/lkb.png)](https://killfeed.co) ![Legion Killfeed Logo](https://killfeed.co/a/i/LK.gif)
+
+## [Killfeed Website](https://killfeed.co/)
+## [Commands](https://killfeed.co/commands)
+## [FAQs](https://killfeed.co/faqs)
+## [Legal](https://killfeed.co/legal)
+## [Economy & Trader Tool](https://killfeed.co/tools)
+## [Video Tutorials](https://killfeed.co/videos)
 
 # FAQ Frequently Asked Questions - Legion Killfeed
 
