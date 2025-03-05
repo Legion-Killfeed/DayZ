@@ -2,7 +2,6 @@
 
 # [Legion Killfeed's Slash Commands](https://killfeed.co/commands)
 
-# [Legion Killfeed's Slash Commands](https://killfeed.co/commands)
 ### Owner
 | Command | Description |
 |---------|-------------|
