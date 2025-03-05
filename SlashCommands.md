@@ -1,4 +1,4 @@
-# [Legion Killfeed's Slash Commands](https://killfeed.co/commands) ![Legion Killfeed Logo](https://killfeed.co/a/favicons/apple-touch-icon.png)
+# [Legion Killfeed's Slash Commands](https://killfeed.co/commands) ![Legion Killfeed Logo]([https://killfeed.co/a/favicons/apple-touch-icon.png](https://killfeed.co/a/img/logo.gif))
 ### Owner
 - `/reset stats player`
 	- Wipe a player stats. [WARNING: This can't be undone!!!]
