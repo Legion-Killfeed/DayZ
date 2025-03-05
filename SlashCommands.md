@@ -6,13 +6,13 @@
 | `/reset stats player` | Wipe a player's stats. **[WARNING: This can't be undone!]** |
 | `/reset stats server` | Wipe a server's stats. **[WARNING: This can't be undone!]** |
 
-## Setup Commands			## Additional Settings
-| Command | Description |			| Command | Description |
-|---------|-------------|			|---------|-------------|
-| `/setup token` | Add Server(s) using a Nitrado Token (TOKEN USER ONLY) |			| `/settings channels assign` | Assign feed to channel (Admin+) |
-| `/setup channels` | Automated setup (channel creation + perms) for killfeed activation (TOKEN USER ONLY) |			| `/settings channels create` | Add a channel from the list of channels for your selected server (Admin+) |
-| `/setup activate` | Restart killfeed process if switched off (TOKEN USER ONLY) |			| `/settings flag_logs` | Flag build logs to a separate channel (Admin) |
-| `/set discord` | Assign Discord server (TOKEN USER ONLY) |			| `/legion autostart` | Auto-restart server if stopped for 10 minutes |
+## Setup Commands
+| Command | Description |
+|---------|-------------|
+| `/setup token` | Add Server(s) using a Nitrado Token (TOKEN USER ONLY) |
+| `/setup channels` | Automated setup (channel creation + perms) for killfeed activation (TOKEN USER ONLY) |
+| `/setup activate` | Restart killfeed process if switched off (TOKEN USER ONLY) |
+| `/set discord` | Assign Discord server (TOKEN USER ONLY) |
 
 ## Additional Settings
 | Command | Description |
@@ -47,6 +47,7 @@
 | `/legion colours assign` | Assign embed color for unspecified embeds |
 | `/settings add logo` | Add/remove a logo via URL for a selected server |
 | `/settings locations` | Location settings for multiple feeds (Admin) |
+![settings locations](https://killfeed.co/a/i/location_options.png)
 
 ### Rename Options (Admin)
 | Command | Description |
@@ -127,4 +128,5 @@
 | `/locate` | DM last logged location to linked player |
 | `/last restart` | Get last restart, next restart, and player count |
 
-![Legion Killfeed Banner](https://killfeed.co/a/img/lkb.webp) ![Legion Killfeed Logo](https://killfeed.co/a/img/logo.gif)
+[![LegionKillfeed](https://killfeed.co/a/i/lkb.webp)](https://killfeed.co) ![Legion Killfeed Logo](https://killfeed.co/a/i/LK.gif)
+
