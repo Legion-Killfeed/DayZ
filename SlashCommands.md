@@ -343,4 +343,4 @@
 	- `/bounty pay`
 		 Pay a bounty, either your own or someone else's
 
-[![Legion Killfeed](https://killfeed.co/a/img/lkb.webp)](https://killfeed.co) ![Legion Killfeed Logo](https://killfeed.co/a/img/logo.gif)
+[![(https://killfeed.co/a/img/lkb.webp)](https://killfeed.co)] ![Legion Killfeed Logo](https://killfeed.co/a/img/logo.gif)
