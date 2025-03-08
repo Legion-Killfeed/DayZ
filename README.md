@@ -67,6 +67,7 @@
 <summary>
 🇪🇸 Español
 </summary>
+  
 - [Primeros Pasos](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Spanish/#getting-started)
 - [Cómo Configurar el Bot](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Spanish/#how-to-setup-bot)
 - [Preguntas Frecuentes](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Spanish/#faqs)
@@ -86,6 +87,7 @@
   - [Staff](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Spanish/#staff)
   - [Economía](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Spanish/#economy)
   - [Edición de Archivos](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Spanish/#file-editing)
+
 </details>
 
 ---
@@ -94,6 +96,7 @@
 <summary>
 🇫🇷 Français
 </summary>
+  
 - [Mise en Route](https://github.com/LegionKillfeed/LegionKillfeed/wiki/French/#getting-started)
 - [Comment Configurer le Bot](https://github.com/LegionKillfeed/LegionKillfeed/wiki/French/#how-to-setup-bot)
 - [FAQ & Conseils](https://github.com/LegionKillfeed/LegionKillfeed/wiki/French/#faqs)
@@ -113,6 +116,7 @@
   - [Staff](https://github.com/LegionKillfeed/LegionKillfeed/wiki/French/#staff)
   - [Économie](https://github.com/LegionKillfeed/LegionKillfeed/wiki/French/#economy)
   - [Édition de Fichiers](https://github.com/LegionKillfeed/LegionKillfeed/wiki/French/#file-editing)
+
 </details>
 
 ---
@@ -121,6 +125,7 @@
 <summary>
 🇩🇪 Deutsch
 </summary>
+  
 - [Erste Schritte](https://github.com/LegionKillfeed/LegionKillfeed/wiki/German/#getting-started)
 - [So Richten Sie den Bot ein](https://github.com/LegionKillfeed/LegionKillfeed/wiki/German/#how-to-setup-bot)
 - [FAQ & Tipps](https://github.com/LegionKillfeed/LegionKillfeed/wiki/German/#faqs)
@@ -140,6 +145,7 @@
   - [Staff](https://github.com/LegionKillfeed/LegionKillfeed/wiki/German/#staff)
   - [Wirtschaft](https://github.com/LegionKillfeed/LegionKillfeed/wiki/German/#economy)
   - [Dateibearbeitung](https://github.com/LegionKillfeed/LegionKillfeed/wiki/German/#file-editing)
+    
 </details>
 
 ---
