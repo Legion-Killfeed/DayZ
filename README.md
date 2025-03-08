@@ -8,7 +8,7 @@
   </tr>
   <tr>
     <td><img src="https://killfeed.co/a/i/LK.gif" alt="Legion Killfeed Logo"></td>
-    <td rowspan="5"><a href="https://www.trustpilot.com/review/killfeed.co"><img src="https://i.ibb.co/VYG3WVvg/Legion-Best.png" alt="Legion Killfeed is rated the best"></a></td>
+    <td rowspan="6"><a href="https://www.trustpilot.com/review/killfeed.co"><img src="https://i.ibb.co/VYG3WVvg/Legion-Best.png" alt="Legion Killfeed is rated the best"></a></td>
   </tr>
   <tr>
     <td><a href="https://discord.gg/LegionKillfeed"><img src="https://killfeed.co/a/gh/LegionCord.png" alt="Discord for Legion Killfeed"></a></td>
@@ -24,9 +24,12 @@
   </tr>
   <tr>
     <td><a href="https://PayPal.Me/CoderSoul"><img src="https://killfeed.co/a/gh/LegionPay.png" alt="Donate Via PayPal to Legion Killfeed"></a></td>
-    <td><a href="https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home">Go Legion Killfeed's Wiki</a></td>
   </tr>
 </table> 
+
+| <sub>[Legion Killfeed's Wiki](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Wiki de Killfeed de Legion](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Википедия Легиона Киллфида](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Wikipedia di Legion Killfeed](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Wikipédia de Legion Killfeed](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[ويكيبيديا Legion Killfeed](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Wikipedia zum Legion Killfeed](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> |
+|------|------|------|------|------|------|------|
+      
 
 > [!NOTE]
 > Here are some additional DayZ tools and information.  
