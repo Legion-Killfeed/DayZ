@@ -1,11 +1,17 @@
+# WELCOME TO LEGION KILLFEED
+
 <table>
   <tr>
+    <td colspan="2">
+      <a href="https://killfeed.co/"><img src="https://killfeed.co/a/i/lkb.png" alt="Legion Killfeed Banner"></a>
+    </td>
+  </tr>
+  <tr>
     <td><img src="https://killfeed.co/a/i/LK.gif" alt="Legion Killfeed Logo"></td>
-    <td><a href="https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home"><img src="https://killfeed.co/a/i/lkb.png" alt="Legion Killfeed Logo"></a></td>
+    <td rowspan="5"><a href="https://www.trustpilot.com/review/killfeed.co"><img src="https://i.ibb.co/VYG3WVvg/Legion-Best.png" alt="Legion Killfeed is rated the best"></a></td>
   </tr>
   <tr>
     <td><a href="https://discord.gg/LegionKillfeed"><img src="https://killfeed.co/a/gh/LegionCord.png" alt="Discord for Legion Killfeed"></a></td>
-    <td rowspan="5"><a href="https://www.trustpilot.com/review/killfeed.co"><img src="https://i.ibb.co/VYG3WVvg/Legion-Best.png" alt="Legion Killfeed is rated the best"></a></td>
   </tr>
   <tr>
     <td><a href="https://ko-fi.com/LegionKillfeed"><img src="https://killfeed.co/a/gh/LegionFi.png" alt="KoFi for Legion Killfeed"></a></td>
@@ -18,8 +24,12 @@
   </tr>
   <tr>
     <td><a href="https://PayPal.Me/CoderSoul"><img src="https://killfeed.co/a/gh/LegionPay.png" alt="Donate Via PayPal to Legion Killfeed"></a></td>
+    <td><a href="https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home">Go Legion Killfeed's Wiki</a></td>
   </tr>
 </table> 
+
+> [!NOTE]
+> [`Legion Killfeed's Homepage`](https://killfeed.co/ "Click to go to Legion's website") | [`Legion's Privacy Policy & ToS`](https://killfeed.co/legal "Click to open Legion's Website") | [`DayZ Specific File Validator`](https://dayz.modding.click/file-validator "Click to view the dayz specific file validator") |  [`DayZ Compare Tool`](https://killfeed.co/dayz/compare-files "Click to jump to Dayz Compare Tool") | [`DayZ Help`](https://killfeed.co/dayz "Click to go to Legion's website") | [`Code Reducing Tool`](https://modding.click/code-reducer)
 
 ---
 
