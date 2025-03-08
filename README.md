@@ -29,7 +29,8 @@
 </table> 
 
 > [!NOTE]
-> [`Legion Killfeed's Homepage`](https://killfeed.co/ "Click to go to Legion's website") | [`Legion's Privacy Policy & ToS`](https://killfeed.co/legal "Click to open Legion's Website") | [`DayZ Specific File Validator`](https://dayz.modding.click/file-validator "Click to view the dayz specific file validator") |  [`DayZ Compare Tool`](https://killfeed.co/dayz/compare-files "Click to jump to Dayz Compare Tool") | [`DayZ Help`](https://killfeed.co/dayz "Click to go to Legion's website") | [`Code Reducing Tool`](https://modding.click/code-reducer)
+> Here are some additional DayZ tools and information.  
+> [`Legion's Privacy Policy & ToS`](https://killfeed.co/legal "Click to open Legion's Website") | [`DayZ Specific File Validator`](https://dayz.modding.click/file-validator "Click to view the dayz specific file validator") |  [`DayZ Compare Tool`](https://killfeed.co/dayz/compare-files "Click to jump to Dayz Compare Tool") | [`DayZ Help`](https://killfeed.co/dayz "Click to go to Legion's website") | [`Code Reducing Tool`](https://modding.click/code-reducer)
 
 ---
 
