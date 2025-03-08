@@ -27,13 +27,14 @@
   </tr>
 </table> 
 
-| <sub>[Legion Killfeed's Wiki](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Wiki de Killfeed de Legion](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Википедия Легиона Киллфида](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Wikipedia di Legion Killfeed](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Wikipédia de Legion Killfeed](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[ويكيبيديا Legion Killfeed](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Wikipedia zum Legion Killfeed](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> |
-|------|------|------|------|------|------|------|
-      
+| <sub>[Legion Killfeed's Wiki](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Wiki de Killfeed de Legion](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Википедия Легиона Киллфида](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Wikipedia di Legion Killfeed](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> |
+|------|------|------|------|
+| <sub>[Wikipédia de Legion Killfeed](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[ويكيبيديا Legion Killfeed](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[Wikipedia zum Legion Killfeed](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> | <sub>[![UserManual](https://i.ibb.co/XZ2NDXqg/User-Manual-Icon.png)](https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home)</sub> |
 
 > [!NOTE]
 > Here are some additional DayZ tools and information.  
-> [`Legion's Privacy Policy & ToS`](https://killfeed.co/legal "Click to open Legion's Website") | [`DayZ Specific File Validator`](https://dayz.modding.click/file-validator "Click to view the dayz specific file validator") |  [`DayZ Compare Tool`](https://killfeed.co/dayz/compare-files "Click to jump to Dayz Compare Tool") | [`DayZ Help`](https://killfeed.co/dayz "Click to go to Legion's website") | [`Code Reducing Tool`](https://modding.click/code-reducer)
+>  | [`Legion's Privacy & ToS`](https://killfeed.co/legal "Click to open Legion's Website") | [`DayZ Specific File Validator`](https://dayz.modding.click/file-validator "Click to view the dayz specific file validator") |  [`DayZ Compare Tool`](https://killfeed.co/dayz/compare-files "Click to jump to Dayz Compare Tool") | [`DayZ Help`](https://killfeed.co/dayz "Click to go to Legion's website") | [`Code Reducing Tool`](https://modding.click/code-reducer) |
+> |------|------|------|------|------|
 
 ---
 
