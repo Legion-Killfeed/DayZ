@@ -1,13 +1,27 @@
-[![Legion Killfeed](https://killfeed.co/a/i/lkb.png)](Home)
+<table>
+  <tr>
+    <td><img src="https://killfeed.co/a/i/LK.gif" alt="Legion Killfeed Logo"></td>
+    <td><a href="https://github.com/LegionKillfeed/LegionKillfeed/wiki/Home"><img src="https://killfeed.co/a/i/lkb.png" alt="Legion Killfeed Logo"></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://discord.gg/LegionKillfeed"><img src="https://killfeed.co/a/gh/LegionCord.png" alt="Discord for Legion Killfeed"></a></td>
+    <td rowspan="5"><a href="https://www.trustpilot.com/review/killfeed.co"><img src="https://i.ibb.co/VYG3WVvg/Legion-Best.png" alt="Legion Killfeed is rated the best"></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ko-fi.com/LegionKillfeed"><img src="https://killfeed.co/a/gh/LegionFi.png" alt="KoFi for Legion Killfeed"></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.tiktok.com/@legionkillfeed"><img src="https://killfeed.co/a/gh/LegionTok.png" alt="TikTok for Legion Killfeed"></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://youtube.com/@LegionKillfeed"><img src="https://killfeed.co/a/gh/LegionTube.png" alt="YouTube for Legion Killfeed"></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://PayPal.Me/CoderSoul"><img src="https://killfeed.co/a/gh/LegionPay.png" alt="Donate Via PayPal to Legion Killfeed"></a></td>
+  </tr>
+</table> 
 
-![Legion Killfeed Logo](https://killfeed.co/a/i/LK.gif)
-
-| [![Discord for Legion Killfeed](https://killfeed.co/a/gh/LegionCord.png)](https://discord.gg/LegionKillfeed) |
-|-------------|
-| [![KoFi for Legion Killfeed](https://killfeed.co/a/gh/LegionFi.png)](https://ko-fi.com/LegionKillfeed) |
-| [![TikTok for Legion Killfeed](https://killfeed.co/a/gh/LegionTok.png)](https://www.tiktok.com/@legionkillfeed) |
-| [![YouTube for Legion Killfeed](https://killfeed.co/a/gh/LegionTube.png)](https://youtube.com/@LegionKillfeed) |
-| [![Donate Via PayPal](https://killfeed.co/a/gh/LegionPay.png)](https://PayPal.Me/CoderSoul) |
+---
 
 <details>
 <summary>
@@ -204,6 +218,3 @@
 
 </details>
 
----
-
-[![Legion Killfeed is rated the best](https://i.ibb.co/VYG3WVvg/Legion-Best.png)](https://www.trustpilot.com/review/killfeed.co)  
