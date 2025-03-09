@@ -25,7 +25,7 @@
   <tr>
     <td><a href="https://PayPal.Me/CoderSoul"><img src="https://killfeed.co/a/gh/LegionPay.png" alt="Donate Via PayPal to Legion Killfeed"></a></td>
   </tr>
-</table> 
+</table>
 
 | <sub>[Legion Killfeed's Wiki](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> | <sub>[Wiki de Killfeed de Legion](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> | <sub>[Википедия Легиона Киллфида](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> | <sub>[Wikipedia di Legion Killfeed](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> |
 |------|------|------|------|
@@ -33,7 +33,7 @@
 
 > [!NOTE]
 > Here are some additional DayZ tools and information.  
->  | [`Legion's Privacy & ToS`](https://killfeed.co/legal "Click to open Legion's Website") | [`DayZ Specific File Validator`](https://dayz.modding.click/file-validator "Click to view the dayz specific file validator") |  [`DayZ Compare Tool`](https://killfeed.co/dayz/compare-files "Click to jump to Dayz Compare Tool") | [`DayZ Help`](https://killfeed.co/dayz "Click to go to Legion's website") | [`Code Reducing Tool`](https://modding.click/code-reducer) |
+> | [`Legion's Privacy & ToS`](https://killfeed.co/legal "Click to open Legion's Website") | [`DayZ Specific File Validator`](https://dayz.modding.click/file-validator "Click to view the dayz specific file validator") |  [`DayZ Compare Tool`](https://killfeed.co/dayz/compare-files "Click to jump to Dayz Compare Tool") | [`DayZ Help`](https://killfeed.co/dayz "Click to go to Legion's website") | [`Code Reducing Tool`](https://modding.click/code-reducer) |
 > |------|------|------|------|------|
 
 ---
@@ -149,7 +149,7 @@
   - [Staff](https://github.com/Legion-Killfeed/DayZ/wiki/German/#staff)
   - [Wirtschaft](https://github.com/Legion-Killfeed/DayZ/wiki/German/#economy)
   - [Dateibearbeitung](https://github.com/Legion-Killfeed/DayZ/wiki/German/#file-editing)
-    
+
 </details>
 
 ---
@@ -238,4 +238,3 @@
   - [تحرير الملفات](https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#file-editing)
 
 </details>
-
