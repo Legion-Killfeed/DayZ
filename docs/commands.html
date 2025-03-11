@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#ba9849">
+	<title>Legion-pedia - Commands</title>
+
+	<!-- Open Graph Meta Tags for Discord Embed -->
+	<meta property="og:locale" content="en_US">
+	<meta property="og:title" content="Legion-pedia - Additional Setup Commands">
+	<meta property="og:url" content="https://github.com/Legion-Killfeed/DayZ/wiki/English#subscriber-additional">
+	<meta property="og:description" content="
+`/settings channels assign` - Assign a feed to channel
+`/settings channels create` - Create a feed's channel
+`/legion autostart` - Auto-Restart your server if stopped for 10mins
+">
+	<meta property="og:image" content="https://killfeed.co/a/i/Legion-pedia.gif">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large">
+	<meta name="twitter:title" content="Legion-pedia - Additional Setup Commands">
+	<meta name="twitter:description" content="
+`/settings channels assign` - Assign a feed to channel
+`/settings channels create` - Create a feed's channel
+`/legion autostart` - Auto-Restart your server if stopped for 10mins
+">
+	<meta name="twitter:image" content="https://killfeed.co/a/i/Legion-pedia.gif">
+	<!-- Auto Redirect to GitHub Wiki -->
+	<!-- meta http-equiv="refresh" content="0; url=https://github.com/Legion-Killfeed/DayZ/wiki/English#subscriber-additional"-->
+	<link rel="alternate" hreflang="en" href="https://legion-killfeed.github.io/DayZ" />
+	<link rel="alternate" hreflang="fr" href="https://legion-killfeed.github.io/DayZ/fr" />
+	<link rel="alternate" hreflang="de" href="https://legion-killfeed.github.io/DayZ/de/" />
+	<link rel="alternate" hreflang="es" href="https://legion-killfeed.github.io/DayZ/es/" />
+	<link rel="alternate" hreflang="it" href="https://legion-killfeed.github.io/DayZ/it/" />
+	<link rel="alternate" hreflang="ru" href="https://legion-killfeed.github.io/DayZ/ru/" />
+	<link rel="alternate" hreflang="ae" href="https://legion-killfeed.github.io/DayZ/ae/" />
+	
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="new.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid position-relative d-flex p-0">
+		<div class="sidebar pe-4 pb-3">
+			<nav class="navbar navbar-dark">
+				<a href="https://killfeed.co/" class="navbar-brand mx-4 mb-3">
+					<img src="https://killfeed.co/a/i/LKF.svg" alt="Legion Killfeed Title" style="width: 100px;">
+				</a>
+				<div class="navbar-nav w-100">
+					<a href="https://killfeed.co/" class="nav-item nav-link"><i class="fa fa-home me-2"></i>Home</a>
+					<a href="https://killfeed.co/commands" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Commands</a>
+					<a href="https://killfeed.co/tools" class="nav-item nav-link"><i class="fa fa-tools me-2"></i>Tools</a>
+					<a href="https://discord.gg/LegionKillfeed" class="nav-item nav-link"><i class="fab fa-discord me-2"></i>Discord</a>
+					<hr>
+					<a href="https://www.tiktok.com/@legionkillfeed"><img src="https://killfeed.co/a/gh/LegionTok.png" alt="TikTok for Legion Killfeed" style="width: 100px;"></a>
+					<hr>
+					<a href="https://youtube.com/@LegionKillfeed"><img src="https://killfeed.co/a/gh/LegionTube.png" alt="YouTube for Legion Killfeed" style="width: 100px;"></a>
+					<hr>
+					<a href="https://PayPal.Me/CoderSoul"><img src="https://killfeed.co/a/gh/LegionPay.png" alt="Donate Via PayPal" style="width: 100px;"></a>
+					<hr>
+					<br>
+					<br>
+					<div class="language-content">
+        				<div class="lang-content en" style="display: none;">
+							<h6>English</h6>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#getting-started">Getting Started</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#how-to-setup-bot">How to Set Up the Bot</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#faqs">FAQs &amp; Tips</a>
+							<a href="https://discord.com/oauth2/authorize?client_id=1122337769008680971">Bot Invite</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#commands">Commands</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#subscriber-only">Subscriber Only</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#subscriber-setup">Setup</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#subscriber-additional">Additional Settings</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki//#admin">Admin</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#killfeed-settings">Killfeed Settings</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#server-styling">Server Styling</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#server-naming">Server Naming</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#scheduler">Scheduler</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#pve-autoban">PVE Auto Ban</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#shoppi-config">Shoppi Config</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#types-editing">Types.xml Editing</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#staff">Staff</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#economy">Economy</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/English/#file-editing">File Editing</a>
+						</div>
+						<div class="lang-content es" style="display: none;">
+							<h6>Español</h6>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#getting-started">Primeros Pasos</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#how-to-setup-bot">Cómo Configurar el Bot</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#faqs">Preguntas Frecuentes</a>
+							<a href="https://discord.com/oauth2/authorize?client_id=1122337769008680971">Bot Invite</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#commands">Comandos</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#subscriber-only">Solo para Suscriptores</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#subscriber-setup">Configuración</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#subscriber-additional">Ajustes Adicionales</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#admin">Administrador</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#killfeed-settings">Configuración de Killfeed</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#server-styling">Estilo del Servidor</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#server-naming">Opciones de Renombrado</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#scheduler">Programador</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#pve-autoban">Baneo Automático</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#shoppi-config">Shoppi Config</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#types-editing">Edición Types.xml</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#staff">Staff</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#economy">Economía</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Spanish/#file-editing">Edición de Archivos</a>
+						</div>
+						<div class="lang-content fr" style="display: none;">
+							<h6>Français</h6>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#getting-started">Mise en Route</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#how-to-setup-bot">Comment Configurer le Bot</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#faqs">FAQ &amp; Conseils</a>
+							<a href="https://discord.com/oauth2/authorize?client_id=1122337769008680971">Bot Invite</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#commands">Commandes</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#subscriber-only">Réservé aux Abonnés</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#subscriber-setup">Mise en Place</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#subscriber-additional">Paramètres Supplémentaires</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#admin">Administrateur</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#killfeed-settings">Paramètres Killfeed</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#server-styling">Personnalisation du Serveur</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#server-naming">Options de Renommage</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#scheduler">Planificateur</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#pve-autoban">Ban Automatique</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#shoppi-config">Configuration Shoppi</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#types-editing">Édition Types.xml</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#staff">Staff</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#economy">Économie</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/French/#file-editing">Édition de Fichiers</a>
+						</div>
+						<div class="lang-content de" style="display: none;">
+							<h6>Deutsch</h6>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#getting-started">Erste Schritte</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#how-to-setup-bot">So Richten Sie den Bot ein</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#faqs">FAQ &amp; Tipps</a>
+							<a href="https://discord.com/oauth2/authorize?client_id=1122337769008680971">Bot Einladung</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#commands">Befehle</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#subscriber-only">Nur für Abonnenten</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#subscriber-setup">Einrichtung</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#subscriber-additional">Zusätzliche Einstellungen</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#admin">Administrator</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#killfeed-settings">Killfeed Einstellungen</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#server-styling">Server-Styling</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#server-naming">Umbenennungsoptionen</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#scheduler">Scheduler</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#pve-autoban">Automatisches Bannen</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#shoppi-config">Shoppi Konfiguration</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#types-editing">Bearbeitung Types.xml</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#staff">Staff</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#economy">Wirtschaft</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/German/#file-editing">Dateibearbeitung</a>
+						</div>
+						<div class="lang-content it" style="display: none;">
+							<h6>Italiano</h6>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#getting-started">Per Iniziare</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#how-to-setup-bot">Come Configurare il Bot</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#faqs">Domande Frequenti</a>
+							<a href="https://discord.com/oauth2/authorize?client_id=1122337769008680971">Bot Invite</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#commands">Comandi</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#subscriber-only">Solo per Abbonati</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#subscriber-setup">Impostazioni</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#subscriber-additional">Impostazioni Aggiuntive</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#admin">Amministratore</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#killfeed-settings">Impostazioni Killfeed</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#server-styling">Stile del Server</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#server-naming">Opzioni di Rinomina</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#scheduler">Pianificatore</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#pve-autoban">Ban Automatico</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#shoppi-config">Configurazione Shoppi</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#types-editing">Modifica Types.xml</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#staff">Staff</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#economy">Economia</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Italian/#file-editing">Modifica File</a>
+						</div>
+						<div class="lang-content ru" style="display: none;">
+							<h6>Русский</h6>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#getting-started">Начало Работы</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#how-to-setup-bot">Как Настроить Бота</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#faqs">Часто Задаваемые Вопросы</a>
+							<a href="https://discord.com/oauth2/authorize?client_id=1122337769008680971">Пригласить Бота</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#commands">Команды</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#subscriber-only">Только для Подписчиков</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#subscriber-setup">Настройка</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#subscriber-additional">Дополнительные Настройки</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#admin">Администратор</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#killfeed-settings">Настройки Killfeed</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#server-styling">Стилизация Сервера</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#server-naming">Переименование</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#scheduler">Планировщик</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#pve-autoban">Автобан</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#shoppi-config">Конфигурация Shoppi</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#types-editing">Редактирование Types.xml</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#staff">Персонал</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#economy">Экономика</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Russian/#file-editing">Редактирование Файлов</a>
+						</div>
+						<div class="lang-content ae" style="display: none;">
+							<h6>العربية</h6>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#getting-started">البدء</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#how-to-setup-bot">كيفية إعداد الروبوت</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#faqs">الأسئلة الشائعة</a>
+							<a href="https://discord.com/oauth2/authorize?client_id=1122337769008680971">دعوة البوت</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#commands">الأوامر</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#subscriber-only">المشتركون فقط</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#subscriber-setup">الإعداد</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#subscriber-additional">إعدادات إضافية</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#admin">المسؤول</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#killfeed-settings">إعدادات Killfeed</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#server-styling">تصميم الخادم</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#server-naming">إعادة التسمية</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#scheduler">الجدولة</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#pve-autoban">حظر تلقائي</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#shoppi-config">إعدادات Shoppi</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#types-editing">تحرير Types.xml</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#staff">الموظفون</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#economy">الاقتصاد</a>
+							<a href="https://github.com/Legion-Killfeed/DayZ/wiki/Arabic/#file-editing">تحرير الملفات</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- Sidebar End -->
+		<!-- Content Start -->
+		<div class="content">
+			<!-- Navbar Start -->
+			<nav class="navbar navbar-expand navbar-dark b-dark text-center sticky-top px-4 py-0">
+				<a href="https://killfeed.co/" class="navbar-brand d-flex d-lg-none me-4"></a>
+				<a href="#" class="sidebar-toggler flex-shrink-0">
+					<i class="fa fa-bars"></i>
+				</a>
+				<div class="navbar-nav align-items-center ms-auto">
+					<div class="nav-item dropdown m-4 mt-0 mb-0">
+						<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+							<i class="fa fa-gavel me-lg-2"></i>
+							<span class="d-none d-lg-inline-flex">Legal</span>
+						</a>
+						<div class="dropdown-menu dropdown-menu-end border-0 rounded-0 rounded-bottom m-0 bg-dark">
+							<a href="https://killfeed.co/legal#terms-of-service" class="dropdown-item">
+								<div class="d-flex align-items-center">
+									<i class="fa fa-balance-scale-right me-2" alt="ToS" style="width: 40px; height: 40px;"></i>
+									<div class="ms-2">
+										<h6 class="fw-heavy mb-0">Terms of Use</h6>
+										<small>Use of our bot means you agree to our TOS.</small>
+									</div>
+								</div>
+							</a>
+							<hr>
+							<a href="https://killfeed.co/legal#privacy-policy" class="dropdown-item">
+								<div class="d-flex align-items-center">
+									<i class="fa fa-user-shield me-2" alt="Privacy" style="width: 40px; height: 40px;"></i>
+									<div class="ms-2">
+										<h6 class="fw-heavy mb-0">Privacy Policy</h6>
+										<small>What data we collect & how we use it.</small>
+									</div>
+								</div>
+							</a>
+							<hr>
+							<a href="" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#copyrightModal">
+								<div class="d-flex align-items-center">
+									<i class="fa fa-copyright me-2" alt="Copyright" style="width: 40px; height: 40px;"></i>
+									<div class="ms-2">
+										<h6 class="fw-heavy mb-0">Copyright</h6>
+										<small>2022-2025</small>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<a href="#" class="sideright-toggler flex-shrink-0">
+						<i class="fa fa-language"></i> Languages
+					</a>
+				</div>
+			</nav>
+			<!-- Navbar End -->
+			<div class="container-fluid pt-2 pb-2 py-2 px-2">
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h5>
+						Subscriber Only Commands
+					</h5>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Commands for Setting up the bot:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/setup token</code> -  Add Server/s using a Nitrado Token (TOKEN USER ONLY)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/setup channels</code> -  Automated set up (channel creation + channel perms) required to activate killfeed (TOKEN USER ONLY)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/setup activate</code> -  Switch killfeed process back on if for any reason it's been switched off by the bot. (TOKEN USER ONLY)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/set discord</code> -  Assign discord server (TOKEN USER ONLY)<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Commands for wiping stats:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/reset stats player</code> - Wipe a player stats. [WARNING: This can't be undone!!!]<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/reset stats server</code> - Wipe a servers stats. [WARNING: This can't be undone!!!]<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Commands for feed channels settings:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings channels assign</code> -  Assign feed to channel (Admin+)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings channels create</code> -  Add a channel from the list of channels for your selected server (Admin+)<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Admin Commands/Bot settings:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/admin tracker</code> - Track command usage<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings flag_logs</code> -  Flag build logs to separate channel (Admin)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/legion autostart</code> -  auto restart your server if stopped for 10mins<br>
+					</div>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings view</code> -  View your server's settings in Legion's database.<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings admin roles</code> -  Add killfeed permission to a discord role from a list of permissions (Admin)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings linked role</code> -  Role that is assigned to members when they link their account<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings feeds clean</code> -  Enable/Disable purge messages for Status, Heatmaps, Leaderboards<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Admin Commands/Bot settings:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings economy</code> -  All economy settings except bounties<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings bounty</code> -  Assign your servers default bounty amount (required to enable bounty channel)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings plon</code> -  Enable/Disable players use of `/plon` command<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings set_plon_prefix</code> -  change the prefix to the players online voice channel count<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/logs autofeed</code> -  Assign Auto Download Logs Channel<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Bot Embed Styling:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/legion colours view</code> - See what colours we have available for embeds<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/legion colours assign</code> - Assign embed colour to be displayed on embeds where-ever there is no pre-defined embed colour<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings add logo</code> - Add or remove a logo via URL for a selected server to be displayed on embeds where-ever there is a spare image slot available<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings locations</code> - Location settings for multiple feeds *a lot of options* (Admin)<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Renaming Server Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings rename</code> - Change the server's name in the killfeed<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/server details edit</code> - Change server's name/description<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/server details view</code> - View server's name & description + other details<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Legion Scheduler Settings:
+					</h6>
+					<p>Only damage enable/disable/cancel works currently</p>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/schedule server restarts</code> - Schedule automated server restarts via bot. (WIP)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/schedule damage cancel</code> - Cancel the automated base damage scheduler (Admin)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/schedule damage enabled</code> - Set the day, time and timezone for base damage to be turned on (Admin)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/schedule damage disabled</code> - Set the day, time and timezone for base damage to be turned off (Admin)<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Whole Map PVE Mode:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings mode autoban</code> - Autoban on Kill, Autoban on Death, No Autoban (Admin)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/settings mode ignore</code> - Gamertags that are allowed to kill when autoban is on (Moderator)<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Legion Shoppi Configuration Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi admin location</code> - Set trader location for items to spawn or disable to allow anywhere<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi admin status</code> - View Shoppi Status, pending orders, etc<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi config start</code> - Sends config files for trader that is coming soon<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi config setup</code> - Setup config (requires file) and assign channels for trader<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi config colour</code> - Set colour of embeds<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi config restarts</code> - Set time between restarts and whether bot restarts or not<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Types.xml Editing Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/types local validate</code> - Validate Local XML file (Local file, not on server)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/types local boost</code> - Mass boost all nominals and mins to 'x' amount, eg, boost 100 to 1000 (Local file, not on server)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/types local edit</code> - Bulk Edit Local Types.XML file by category, tag, usage, or value. (Local file, not on server)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/types server boost</code> - Mass boost all nominals and mins to 'x' amount, eg, boost 100 to 1000 (Live server code)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/updates</code> - Compare your files with the latest github version and get a list of missing items from your files (useful for updates)<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Admin/Staff Common Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/admin getid</code> - Get the ID of a member (Usually used for devs)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/admin search</code> - Search for a gamertag or member<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/admin plocs</code> - Current online player locations<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/admin force link</code> - Force link someone's discord to their gamertag<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/admin force unlink</code> - Force unlink a members discord from their gamertag<br>
+					</div>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/base damage</code> - Turn base & container damage on/off on your server<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/car_wipe</code> - This command does a car wipe, server restarts twice<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/last locations</code> - Last 20 locations for a gamertag<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/legion embed</code> - Send a message in an embed (must be less than 4000 characters)<br>
+					</div>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/logs download current</code> - Download Current Logfile<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/logs download kills</code> - Download Current Kills Only Logfile<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/logs download all</code> - Download All Logfiles<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/status</code> - Get the last restart and status of all servers<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Economy Admin Money:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/economy amoney user</code> - Allows an admin to give or remove money from a user's account.<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/economy amoney all</code> - Allows an admin to give or remove money from all linked accounts.<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/economy amoney reset</code> - Allows an admin to wipe money on.<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/economy amoney default</code> - Allows an admin to assign default balances.<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						File Editing Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/gameplay edit</code> - Edit your cfggameplay.json file for your selected server (Add or Remove) spawn gear/object spawner files in the cfggameplay.json file<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/admin spawner add</code> - Add items to spawn in via Events.xml & CfgEventSpawns.xml<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/admin spawner remove</code> - Remove items from spawn via Events.xml & CfgEventSpawns.xml<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/generate teleports</code> - Place 2 separate items where you want the teleport location to be and the safe location to be<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/generate qrcode</code> - Supply a URL, coords and select your compass orientation to get an in-game scannable QR Code Sign<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Nitrado Webinterface/Dashboard Editing:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/webinterface update</code> - Update options on Nitrado's web interface<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/webinterface tasks list</code> - View your servers Nitrado-handled automated tasks<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/webinterface tasks add</code> - Add Nitrado-handled automated tasks<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/webinterface tasks delete</code> - Delete Nitrado-handled automated tasks from your server<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/webinterface upload</code> - Upload file to folder on your server<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/webinterface download</code> - Download file from any folder on your server<br>
+					</div>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/legion restart</code> - Restart your server<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/legion stop</code> - Stop your server<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/legion remove</code> - Remove stop/restart file<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/legion restartloop</code> - Break a restart loop for your server<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Base Radar Admin Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/base radar add</code> - Create a base radar for your selected server<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/base radar edit</code> - Edit a base radar for your selected server<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/base radar delete</code> - Delete a base radar from your selected server<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/base radar list</code> - List base radars for your selected server<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Shoppi Admin Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi mode</code> - Enable/Disable the use of Shoppi Auto Trader<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi items</code> - Sends item details, attachments, ammo, mags<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi pricing</code> - Sends pricing to trader channel<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Heatmap Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/heatmap Kills</code> -  PVP kills heatmap<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/heatmap Damage</code> -  PVP damage heatmap<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/heatmap Locations</code> -  Heatmap of player locations<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/heatmap Pinmap</code> -  Pinpoint map of player locations<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/heatmap Nitrado Usage</code> -  CPU/Ram usage<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h5>
+						Gatekeeper Commands
+					</h5>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Extra Whitelisting:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/add info_whitelist</code> - No description provided.<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/add upload_whitelist</code> - Upload a file to add gamertags to the whitelist<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/remove rebuild_whitelist</code> - Rebuild Whitelist<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Server Banning:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/add ban</code> - Ban gamertag/gamertags<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/remove ban</code> - Unban gamertag/gamertags<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/view bans</code> - View banlist<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Server Whitelisting:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/add whitelist</code> - Whitelist gamertag/gamertags<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/remove whitelist</code> - Unwhitelist gamertag/gamertags<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/view whitelist</code> - View Whitelist<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Server Prioritize:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/add priority</code> - Prioritize gamertag/gamertags<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/remove priority</code> - Unpriority gamertag/gamertags<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/view priority</code> - View priority list<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h5>
+						General/Player Commands:
+					</h5>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/subscribe</code> - Legion Killfeed Premium Subscription Price<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/help</code> - Select a category to view help commands<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/info</code> - Bot information<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/killfeed advert</code> - Legion Killfeed Advertisement<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/killfeed support</code> - Get a discord invite to Legion Killfeed's Support discord<br>
+					</div>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/bug</code> - Submit a bug report to the developers<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/fight</code> - Challenge a user to a fight, the loser will be timed out.<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/godmode</code> - A fake 'God Mode' command for the lols<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/plon</code> - Players online (Reply is slow for accuracy)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/locate</code> - DM linked player their last logged location<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/last restart</code> - Get the last restart, next restart and current players online<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Player/General Stats Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/global</code> - Global leaderboards<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/leaderboard</code> - Server's Leaderboard<br>
+					</div>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/link</code> - Link your discord to your gamertag<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/unlink</code> - Unlink your discord from your gamertag<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/stats</code> - Get stats for your selected server<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/mine</code> - Get stats for your selected server<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Legion Submission Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/legion submit suggestion</code> - Send a killfeed suggestion/feature request to Legion's discord<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/legion submit roast</code> - Submit `Death Roasts` for victim insults to Legion's discord<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Shoppi Player Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi cart add</code> - Add items to cart before checkout<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi cart clear</code> - Remove items/items from cart before checkout<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi cart view</code> - View items in cart before checkout<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi cart checkout</code> - Checkout with cart (Pay & Upload json)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/shoppi delivery</code> - Set coords for items to spawn<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Base Radar Faction Leader + Staff Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/base ignore add</code> - Add a gamertag to the base radar ignore list<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/base ignore remove</code> - Remove a gamertag from the base radar ignore list<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/base ignore info</code> - List base radar info your current channel's base radar.<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						General Player Economy Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/economy help</code> - View the list of command and a brief description.<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/economy leaderboard</code> - Economy leaderboard (Linked members only)<br>
+					</div>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/pay</code> - Pay someone (Must have played the server)<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/withdraw</code> - Withdraw money from your related server's bank<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/deposit</code> - Deposit money to your bank<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/bal</code> - Check your balance<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Economy Earning Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/daily</code> - Claim your daily reward<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/fish</code> - Go fishing to earn money<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/work</code> - Work to earn money<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/rob</code> - Rob up to 50 percentage of cash from another user<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						Economy Gambling Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/slots</code> - Play slots<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/roulette</code> - Play a roulette game<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/rps</code> - Play a game of rock-paper-scissors<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/blackjack</code> - Play a game of blackjack<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/diceroll</code> - Play a dice roll game<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h6>
+						General Bounty Commands:
+					</h6>
+				</div>
+				<div class="row m-1">
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/bounty add</code> - Add a bounty to someone<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/bounty view</code> - View servers bounty list<br>
+					</div>
+					<div class="col b-dark rounded-1 border-1 m-2 p-2">
+						<code class="dsc">/bounty pay</code> - Pay a bounty, either your own or someone else's<br>
+					</div>
+				</div>
+				<div class="row b-dark rounded-1 border-1 m-2 p-4">
+					<h4>If you are not redirected, <a href="https://github.com/Legion-Killfeed/DayZ/wiki/English#subscriber-additional">click here</a>.</h4>
+				</div>
+			</div>
+			<nav class="footbar">
+				<a href="#copyrightModal" class="nav-item nav-link" id="footer" data-bs-toggle="modal" data-bs-target="#copyrightModal"><i class="fa fa-copyright me-2"></i>Legion Killfeed, All Right Reserved.</a>
+			</nav>
+			</div>
+			<div class="sideright">
+				<nav class="navbar navbar-dark">
+					<hr/>
+					<div class="language-selector">
+						<button class="btn lang" data-lang="en">🇪🇳</button><br>
+						<button class="btn lang" data-lang="es">🇪🇸</button><br>
+						<button class="btn lang" data-lang="fr">🇫🇷</button><br>
+						<button class="btn lang" data-lang="de">🇩🇪</button><br>
+						<button class="btn lang" data-lang="it">🇮🇹</button><br>
+						<button class="btn lang" data-lang="ru">🇷🇺</button><br>
+						<button class="btn lang" data-lang="ae">🇦🇪</button><br>
+					</div>
+					<br>
+				</nav>
+			</div>
+		</div>
+		<div class="modal fade" id="copyrightModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content bg-dark rounded-1 border-1">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Copyright Information</h5>
+						<button type="button" class="btn text-light" data-bs-dismiss="modal" aria-label="Close">❌</button>
+					</div>
+					<div class="modal-body">
+						&copy; 2022-2025 Legion Killfeed. All Rights Reserved.<br>
+						<p>This website and its content, including but not limited to text, graphics, images, logos, icons, and software, are the property of Legion Killfeed and are protected by Australian and international copyright laws.</p>
+						<br><p><strong>Rights Reserved:</strong> No part of this website may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the copyright owner, except in the case of brief quotations embodied in legitimate critical reviews and certain other non-commercial uses permitted by copyright law.</p>
+						<br><p><strong>Disclaimer:</strong> All trademarks, logos, and service marks displayed on this site are the property of their respective owners. Use of these marks does not imply any affiliation with or endorsement by them.</p>
+						<br><p><strong>Australian Copyright Law:</strong> This copyright notice is governed by the laws of Australia. Unauthorized use of this material is strictly prohibited and may result in civil and criminal penalties.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn b-light text-light" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			"use strict";
+		
+			// Sidebar Toggle
+			document.querySelector(".sidebar-toggler").addEventListener("click", function () {
+				document.querySelector(".sidebar").classList.toggle("close");
+				document.querySelector(".content").classList.toggle("close");
+			});
+		
+			// Sideright Toggle
+			document.querySelector(".sideright-toggler").addEventListener("click", function () {
+				document.querySelector(".sideright").classList.toggle("open");
+				document.querySelector(".content").classList.toggle("open");
+			});
+		
+			// Language Selector Toggle
+			document.querySelector(".language-selector").addEventListener("click", function () {
+				document.querySelector(".language-selector").classList.toggle("open");
+			});
+		
+			// Language Selection Logic
+			const langButtons = document.querySelectorAll(".btn.lang");
+			const langContainer = document.querySelector(".language-content");
+			const langSelector = document.querySelector(".language-selector");
+			let activeLangButton = null; // Track currently active button
+			let activeLangContent = null; // Track currently active content
+		
+			langButtons.forEach(button => {
+				button.addEventListener("click", function (event) {
+					event.stopPropagation(); // Prevent global click event
+		
+					let selectedLang = this.getAttribute("data-lang");
+					let activeContent = document.querySelector(`.lang-content.${selectedLang}`);
+		
+					// If the same button is clicked again, reset everything
+					if (activeLangButton === this) {
+						activeLangButton = null;
+						activeLangContent = null;
+						langContainer.classList.add("close");
+						langButtons.forEach(btn => btn.style.display = "inline-block");
+						activeContent.style.display = "none";
+						return;
+					}
+		
+					// Hide all language content
+					document.querySelectorAll(".lang-content").forEach(content => {
+						content.style.display = "none";
+					});
+		
+					// Hide all buttons except the active one
+					langButtons.forEach(btn => {
+						if (btn !== this) btn.style.display = "none";
+					});
+		
+					// Show selected content
+					langContainer.classList.remove("close");
+					activeContent.style.display = "block";
+		
+					// Track active language
+					activeLangButton = this;
+					activeLangContent = activeContent;
+				});
+			});
+		
+			// Click anywhere else to reset everything
+			document.addEventListener("click", function () {
+				if (activeLangButton) {
+					langContainer.classList.add("close");
+					if (activeLangContent) activeLangContent.style.display = "none";
+					langButtons.forEach(btn => btn.style.display = "inline-block");
+					activeLangButton = null;
+					activeLangContent = null;
+				}
+			});
+		
+			// Prevent hiding when clicking inside language content
+			langContainer.addEventListener("click", function (event) {
+				event.stopPropagation();
+			});
+		});
+		
+	</script>
+</body>
+</html>
