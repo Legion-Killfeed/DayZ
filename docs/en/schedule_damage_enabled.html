@@ -4,29 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#ba9849">
+    <link rel="icon" href="https://killfeed.co/favicon.ico">
+    <link rel="apple-touch-icon" href="https://killfeed.co/images/favicons/apple-touch-icon.png">
+    <link rel="shortcut icon" href="https://killfeed.co/favicon.ico">
+    <meta name="msapplication-TileImage" content="https://killfeed.co/images/favicons/favicon-512x512.png">
+    <meta name="description" content="Legion-pedia command page for Legion Killfeed DayZ console server tools, Discord killfeeds, Nitrado integration, authorised log processing, setup guidance, FAQ, reviews, and data-use transparency.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <title>Legion-pedia - Schedule Base Damage On (Admin)</title>
 
     <!-- Open Graph Meta Tags for Discord Embed -->
     <meta property="og:locale" content="en_US">
     <meta property="og:title" content="Legion-pedia - Schedule Base Damage On (Admin)">
-    <meta property="og:url" content="https://github.com/Legion-Killfeed/DayZ/wiki/English#admin">
+    <meta property="og:url" content="https://killfeed.co/commands">
     <meta property="og:description" content="
-𝗖𝗢𝗠𝗠𝗔𝗡𝗗: /schedule damage enabled - 𝘚𝘦𝘵 𝘵𝘩𝘦 𝘥𝘢𝘺, 𝘵𝘪𝘮𝘦 𝘢𝘯𝘥 𝘵𝘪𝘮𝘦𝘻𝘰𝘯𝘦 𝘧𝘰𝘳 𝘣𝘢𝘴𝘦 𝘥𝘢𝘮𝘢𝘨𝘦 𝘵𝘰 𝘣𝘦 𝘵𝘶𝘳𝘯𝘦𝘥 𝘰𝘯.
-𝗨𝗦𝗔𝗚𝗘: /schedule damage enabled - 𝘚𝘦𝘭𝘦𝘤𝘵 𝘥𝘢𝘺 - 𝘛𝘪𝘮𝘦 - 𝘛𝘪𝘮𝘦𝘻𝘰𝘯𝘦
+𝗖𝗢𝗠𝗠𝗔𝗡𝗗: /scheduler damage configure - 𝘚𝘦𝘵 𝘵𝘩𝘦 𝘥𝘢𝘺, 𝘵𝘪𝘮𝘦 𝘢𝘯𝘥 𝘵𝘪𝘮𝘦𝘻𝘰𝘯𝘦 𝘧𝘰𝘳 𝘣𝘢𝘴𝘦 𝘥𝘢𝘮𝘢𝘨𝘦 𝘵𝘰 𝘣𝘦 𝘵𝘶𝘳𝘯𝘦𝘥 𝘰𝘯.
+𝗨𝗦𝗔𝗚𝗘: /scheduler damage configure cycle:First on_day:Saturday on_hrs:6 on_mins:00 on_ampm:AM off_day:Sunday off_hrs:6 off_mins:00 off_ampm:AM
 ">
-    <meta property="og:image" content="https://killfeed.co/a/i/Legionpedia.gif">
+    <meta property="og:image" content="https://killfeed.co/images/LegionKillfeed.gif">
+    <meta property="og:image:alt" content="Legion Killfeed logo and wiki artwork">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large">
     <meta name="twitter:title" content="Legion-pedia - Schedule Base Damage On (Admin)">
     <meta name="twitter:description" content="
-𝗖𝗢𝗠𝗠𝗔𝗡𝗗: /schedule damage enabled - 𝘚𝘦𝘵 𝘵𝘩𝘦 𝘥𝘢𝘺, 𝘵𝘪𝘮𝘦 𝘢𝘯𝘥 𝘵𝘪𝘮𝘦𝘻𝘰𝘯𝘦 𝘧𝘰𝘳 𝘣𝘢𝘴𝘦 𝘥𝘢𝘮𝘢𝘨𝘦 𝘵𝘰 𝘣𝘦 𝘵𝘶𝘳𝘯𝘦𝘥 𝘰𝘯.
-𝗨𝗦𝗔𝗚𝗘: /schedule damage enabled - 𝘚𝘦𝘭𝘦𝘤𝘵 𝘥𝘢𝘺 - 𝘛𝘪𝘮𝘦 - 𝘛𝘪𝘮𝘦𝘻𝘰𝘯𝘦
+𝗖𝗢𝗠𝗠𝗔𝗡𝗗: /scheduler damage configure - 𝘚𝘦𝘵 𝘵𝘩𝘦 𝘥𝘢𝘺, 𝘵𝘪𝘮𝘦 𝘢𝘯𝘥 𝘵𝘪𝘮𝘦𝘻𝘰𝘯𝘦 𝘧𝘰𝘳 𝘣𝘢𝘴𝘦 𝘥𝘢𝘮𝘢𝘨𝘦 𝘵𝘰 𝘣𝘦 𝘵𝘶𝘳𝘯𝘦𝘥 𝘰𝘯.
+𝗨𝗦𝗔𝗚𝗘: /scheduler damage configure cycle:First on_day:Saturday on_hrs:6 on_mins:00 on_ampm:AM off_day:Sunday off_hrs:6 off_mins:00 off_ampm:AM
 ">
 
-    <meta http-equiv="refresh" content="0; url=https://github.com/Legion-Killfeed/DayZ/wiki/English#admin">
+    <meta http-equiv="refresh" content="0; url=https://killfeed.co/commands">
+    <meta name="twitter:image" content="https://killfeed.co/images/LegionKillfeed.gif">
+    <meta name="twitter:image:alt" content="Legion Killfeed logo and wiki artwork">
 </head>
 <body style="background-color: #313131; color: #99c4ee;">
-    <p>If you are not redirected, <a href="https://github.com/Legion-Killfeed/DayZ/wiki/English#admin">click here</a>.</p>
+    <p>If you are not redirected, <a href="https://killfeed.co/commands">click here</a>.</p>
 </body>
 </html>

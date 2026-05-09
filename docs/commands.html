@@ -4,37 +4,40 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="theme-color" content="#ba9849">
-	<title>Legion-pedia - Commands</title>
+    <link rel="icon" href="https://killfeed.co/favicon.ico">
+    <link rel="apple-touch-icon" href="https://killfeed.co/images/favicons/apple-touch-icon.png">
+    <link rel="shortcut icon" href="https://killfeed.co/favicon.ico">
+    <meta name="msapplication-TileImage" content="https://killfeed.co/images/favicons/favicon-512x512.png">
+	<title>Legion-pedia - Legion Killfeed Commands, FAQ, Reviews and Trust Statement</title>
+	<meta name="description" content="Complete Legion Killfeed command reference for DayZ console server owners using Discord, Nitrado integration, killfeeds, stats, server tools, FAQ, reviews, and authorised log processing.">
+	<meta name="keywords" content="Legion Killfeed commands, DayZ killfeed commands, DayZ Discord bot, Nitrado integration, DayZ console server tools, Legion Killfeed FAQ, Legion Killfeed reviews, DayZ server logs, XML tools">
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+	<link rel="canonical" href="https://killfeed.co/commands">
 
 	<!-- Open Graph Meta Tags for Discord Embed -->
 	<meta property="og:locale" content="en_US">
-	<meta property="og:title" content="Legion-pedia - Additional Setup Commands">
-	<meta property="og:url" content="https://github.com/Legion-Killfeed/DayZ/wiki/English#subscriber-additional">
-	<meta property="og:description" content="
-`/settings channels assign` - Assign a feed to channel
-`/settings channels create` - Create a feed's channel
-`/legion autostart` - Auto-Restart your server if stopped for 10mins
-">
-	<meta property="og:image" content="https://killfeed.co/a/i/Legionpedia.gif">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Legion-pedia - Legion Killfeed Commands, FAQ, Reviews and Trust Statement">
+	<meta property="og:url" content="https://killfeed.co/commands">
+	<meta property="og:description" content="Complete Legion Killfeed command reference for DayZ console killfeeds, Nitrado integration, server tools, stats, FAQ, reviews, and authorised data-use transparency.">
+	<meta property="og:image" content="https://killfeed.co/images/LegionKillfeed.gif">
+    <meta property="og:image:alt" content="Legion Killfeed logo and wiki artwork">
 
 	<!-- Twitter Card -->
-	<meta name="twitter:card" content="summary_large">
-	<meta name="twitter:title" content="Legion-pedia - Additional Setup Commands">
-	<meta name="twitter:description" content="
-`/settings channels assign` - Assign a feed to channel
-`/settings channels create` - Create a feed's channel
-`/legion autostart` - Auto-Restart your server if stopped for 10mins
-">
-	<meta name="twitter:image" content="https://killfeed.co/a/i/Legionpedia.gif">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Legion-pedia - Legion Killfeed Commands">
+	<meta name="twitter:description" content="Legion Killfeed command reference with DayZ setup, Nitrado tools, killfeeds, stats, FAQ, reviews, and trust statement.">
+	<meta name="twitter:image" content="https://killfeed.co/images/LegionKillfeed.gif">
+    <meta name="twitter:image:alt" content="Legion Killfeed logo and wiki artwork">
 	<!-- Auto Redirect to GitHub Wiki -->
-	<!-- meta http-equiv="refresh" content="0; url=https://github.com/Legion-Killfeed/DayZ/wiki/English#subscriber-additional"-->
-	<link rel="alternate" hreflang="en" href="https://legion-killfeed.github.io/DayZ" />
-	<link rel="alternate" hreflang="fr" href="https://legion-killfeed.github.io/DayZ/fr" />
-	<link rel="alternate" hreflang="de" href="https://legion-killfeed.github.io/DayZ/de/" />
-	<link rel="alternate" hreflang="es" href="https://legion-killfeed.github.io/DayZ/es/" />
-	<link rel="alternate" hreflang="it" href="https://legion-killfeed.github.io/DayZ/it/" />
-	<link rel="alternate" hreflang="ru" href="https://legion-killfeed.github.io/DayZ/ru/" />
-	<link rel="alternate" hreflang="ae" href="https://legion-killfeed.github.io/DayZ/ae/" />
+	<!-- meta http-equiv="refresh" content="0; url=https://killfeed.co/commands"-->
+	<link rel="alternate" hreflang="en" href="https://killfeed.co/" />
+	<link rel="alternate" hreflang="fr" href="https://killfeed.co/fr" />
+	<link rel="alternate" hreflang="de" href="https://killfeed.co/de" />
+	<link rel="alternate" hreflang="es" href="https://killfeed.co/es" />
+	<link rel="alternate" hreflang="it" href="https://killfeed.co/it" />
+	<link rel="alternate" hreflang="ru" href="https://killfeed.co/ru" />
+	<link rel="alternate" hreflang="ar-AE" href="https://killfeed.co/ae" />
 	
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -47,7 +50,7 @@
 		<div class="sidebar pe-4 pb-3">
 			<nav class="navbar navbar-dark">
 				<a href="https://killfeed.co/" class="navbar-brand mx-4 mb-3">
-					<img src="https://killfeed.co/a/i/LKF.svg" alt="Legion Killfeed Title" style="width: 100px;">
+					<img src="https://killfeed.co/images/logo.gif" alt="Legion Killfeed Title" style="width: 100px;">
 				</a>
 				<div class="navbar-nav w-100">
 					<a href="https://killfeed.co/" class="nav-item nav-link"><i class="fa fa-home me-2"></i>Home</a>
@@ -55,11 +58,15 @@
 					<a href="https://killfeed.co/tools" class="nav-item nav-link"><i class="fa fa-tools me-2"></i>Tools</a>
 					<a href="https://discord.gg/LegionKillfeed" class="nav-item nav-link"><i class="fab fa-discord me-2"></i>Discord</a>
 					<hr>
-					<a href="https://www.tiktok.com/@legionkillfeed"><img src="./gh/LegionTok.png" alt="TikTok for Legion Killfeed" style="width: 100px;"></a>
+					<a href="https://discord.gg/LegionKillfeed"><img src="https://killfeed.co/images/misc/LegionCord.png" alt="Discord for Legion Killfeed" style="width: 100px;"></a>
 					<hr>
-					<a href="https://youtube.com/@LegionKillfeed"><img src="./gh/LegionTube.png" alt="YouTube for Legion Killfeed" style="width: 100px;"></a>
+					<a href="https://ko-fi.com/LegionKillfeed"><img src="https://killfeed.co/images/misc/LegionFi.png" alt="Ko-fi for Legion Killfeed" style="width: 100px;"></a>
 					<hr>
-					<a href="https://PayPal.Me/CoderSoul"><img src="./gh/LegionPay.png" alt="Donate Via PayPal" style="width: 100px;"></a>
+					<a href="https://www.tiktok.com/@legionkillfeed"><img src="https://killfeed.co/images/misc/LegionTok.png" alt="TikTok for Legion Killfeed" style="width: 100px;"></a>
+					<hr>
+					<a href="https://youtube.com/@LegionKillfeed"><img src="https://killfeed.co/images/misc/LegionTube.png" alt="YouTube for Legion Killfeed" style="width: 100px;"></a>
+					<hr>
+					<a href="https://PayPal.Me/CoderSoul"><img src="https://killfeed.co/images/misc/LegionPay.png" alt="Donate Via PayPal" style="width: 100px;"></a>
 					<hr>
 					<br>
 					<br>
@@ -263,7 +270,7 @@
 									<i class="fa fa-copyright me-2" alt="Copyright" style="width: 40px; height: 40px;"></i>
 									<div class="ms-2">
 										<h6 class="fw-heavy mb-0">Copyright</h6>
-										<small>2022-2025</small>
+						<small>2022-2026</small>
 									</div>
 								</div>
 							</a>
@@ -276,6 +283,609 @@
 			</nav>
 			<!-- Navbar End -->
 			<div class="container-fluid pt-2 pb-2 py-2 px-2">
+				<section class="trust-grid text-start" aria-label="Legion Killfeed FAQ reviews and trust statement">
+					<article class="trust-card trust-card--wide">
+						<img class="trust-logo" src="https://killfeed.co/images/logo.gif" alt="Legion Killfeed logo" loading="eager" decoding="async">
+						<p class="trust-eyebrow">Legion Killfeed trust statement</p>
+						<h1>Legion Killfeed commands, FAQ, reviews, and authorised server access</h1>
+						<p>This command reference is part of Legion-pedia, the Legion Killfeed knowledge base for DayZ console server owners using Discord killfeeds, Nitrado integration, log processing, server tools, player stats, heatmaps, base radar, economy, XML utilities, and setup commands.</p>
+						<p><strong>Special announcement:</strong> I categorically deny the allegation that Legion Killfeed collects, sells, abuses, leaks, or misuses customer files or server data. Legion Killfeed uses access only for the features customers authorise, including Nitrado integration, log processing, server tools, killfeeds, stats, and related bot functions.</p>
+						<p>XML files are not precious gemstones; they are easy to make. I do not know who would pay for them, but I certainly have never sold files. I give my own files out regularly.</p>
+						<p>The claim is false, malicious, and commercially damaging. It is not a review or opinion; it is a factual accusation of misconduct pushed by competitors and competitor-linked accounts. Evidence, technical context, records, timelines, screenshots, and source patterns are available for people who want proof rather than anonymous Reddit comments, competitor pages, or forum pile-ons.</p>
+						<p>Legion Killfeed does not advertise or seek people out. People find Legion themselves.</p>
+						<div class="trust-actions">
+							<a class="trust-button" href="https://they-wish-i.died.space">View Evidence</a>
+							<a class="trust-button" href="https://share.google/ozE8X655mIr6w4v5R">Google Post</a>
+							<a class="trust-button" href="https://killfeed.co/reviews">Customer Reviews</a>
+							<a class="trust-button" href="https://github.com/Legion-Killfeed/DayZ/wiki/English">English Wiki</a>
+						</div>
+					</article>
+					<article class="trust-card">
+						<h2>FAQ: data use</h2>
+						<p>Legion uses customer-authorised access to read logs, process killfeed events, manage selected server tools, post Discord embeds, calculate stats, and perform setup actions requested by server owners.</p>
+					</article>
+					<article class="trust-card">
+						<h2>FAQ: Nitrado</h2>
+						<p>Nitrado integration exists so server owners can connect their DayZ service, run killfeeds, download logs, update settings, schedule actions, and manage tools from Discord.</p>
+					</article>
+					<article class="trust-card">
+						<h2>Review themes</h2>
+						<p>Customer reviews commonly mention fast support, useful automation, clean killfeed embeds, reliable DayZ console server tools, and practical setup help.</p>
+					</article>
+				</section>
+				<!-- BOT-COMMAND-INVENTORY:START -->
+<section class="trust-panel m-2 p-4">
+<h2>Bot Source Command Inventory</h2>
+<p>Source checked against the current <code>bot/**/*.py</code> slash-command decorators. Developer and support debug commands are excluded.</p>
+<h3>Setup</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/setup activate</code> - Switch log download on<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/setup assign discord</code> - Token user with admin perms can assign discord<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/setup channels</code> - Setup all channels for a selected server<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/setup token</code> - Add Server by Nitrado Token<br>
+</div>
+</div>
+<h3>Settings</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings autoban cheats</code> - Configure cheat autobans.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings autoban config</code> - Autoban options, on kill, death or off.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings autoban whitelist</code> - Whitelist to be safe from whole map&#x27;s ban functions<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings channel assign</code> - Assign feed to channel<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings channel create</code> - Add a channel from the list of channels for your selected server<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings configure color</code> - Assign embed color for your server<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings configure glitchfeed</code> - Toggle which items from build logs to send to the glitch feed channel<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings configure linkrole</code> - Assign the role to be added to linked users.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings configure locations</code> - Set locations settings for separate feeds<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings configure logo</code> - Add or remove a logo via URL for a selected server<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings configure misc</code> - Configure miscellaneous settings<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings configure name</code> - Rename server in killfeed?<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings forget server</code> - Disconnect a server without deleting its saved stats or history.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings playersonline</code> - Enable/Disable players online (settings &amp; /plon command)<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/settings view</code> - View Legion&#x27;s stored settings for your servers.<br>
+</div>
+</div>
+<h3>Server</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/server break loop</code> - Break a restart loop for your server<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/server delete stop</code> - Remove stop file<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/server fetch</code> - Fetch faction details from member<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/server restart</code> - Restart your server<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/server stop</code> - stop your server<br>
+</div>
+</div>
+<h3>Logs</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/logs auto download</code> - Assign Auto Download Logs Channel<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/logs download all</code> - Download All Logfiles<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/logs download current</code> - Download Current Logfile<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/logs download kills</code> - Download Current Kills Only Logfile<br>
+</div>
+</div>
+<h3>Nitrado</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/nitrado dashboard damage</code> - Change base damage settings for Nitrado&#x27;s webinterface<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/nitrado dashboard settings</code> - Update settings on Nitrado&#x27;s web interface dashboard<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/nitrado details update</code> - Change Nitrado server name/description + add special boost character<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/nitrado details view</code> - View server name &amp; description + other details<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/nitrado tasks add</code> - Add automated task via Nitrado<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/nitrado tasks delete</code> - Delete automated task via Nitrado<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/nitrado tasks list</code> - View servers automated tasks<br>
+</div>
+</div>
+<h3>Files</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/file download</code> - Download file from any folder on your server<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/file gameplay damage</code> - Edit your cfggameplay.json file to enable/disable base damage for your selected server<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/file gameplay edit</code> - Add or Remove spawn gear and object files from the cfggameplay.json file<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/file upload</code> - Upload file to folder on your server<br>
+</div>
+</div>
+<h3>Scheduler</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/scheduler damage configure</code> - Set the day, time and timezone for base damage to be turned on &amp; off<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/scheduler gameplay edits</code> - Add cfggameplay.json automated file editting<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/scheduler gameplay remove</code> - Cancel cfggameplay.json automated file editting for matching file name<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/scheduler settings configure</code> - Configure settings for Legion Killfeed to automate.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/scheduler settings damage</code> - Enable/Disable bot handled automated base damage scheduler<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/scheduler settings restarts</code> - Enable/Disable bot handled-restarts.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/scheduler settings view</code> - View current base damage scheduling configuration<br>
+</div>
+</div>
+<h3>Admin</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/admin force fight</code> - Force two users to a fight, the loser will be timed out, if they don&#x27;t accept, both are timed out.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/admin force link</code> - Force link someone&#x27;s discord to their gamertag<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/admin force unlink</code> - Force unlink a members discord from their gamertag<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/admin getid</code> - Get the ID of a member (Usually used for devs)<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/admin player locations</code> - Current online player locations<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/admin player search</code> - Search for a gamertag or member<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/admin spawner add</code> - Add items to spawn in via Events.xml &amp; CfgEventSpawns.xml<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/admin spawner nuke</code> - Provide coords to have a &#x27;nuke&#x27; of explosions to spawn on server<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/admin spawner remove</code> - Remove an event from events.xml &amp; CfgEventSpawns.xml<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/admin tracker</code> - Track command usage<br>
+</div>
+</div>
+<h3>Banlist</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/ban add</code> - Ban gamertag/gamertags<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/ban remove</code> - Unban gamertag/gamertags<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/ban view</code> - View banlist<br>
+</div>
+</div>
+<h3>Alt Detection</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/alt detector ban</code> - Ban all associated gamertags, alts and devices<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/alt detector search</code> - Search for associated gamertags, alts and devices<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/alt detector state</code> - Enable/Disable alt detection (requires disableMultiAccountMitigation to be disabled)<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/alt detector unban</code> - unban all associated gamertags, alts and devices<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/alt detector view</code> - View accounts with persistence set to actively monitor<br>
+</div>
+</div>
+<h3>Priority</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/priority add</code> - Prioritize gamertag/gamertags<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/priority remove</code> - Registered bot command.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/priority view</code> - View priority list<br>
+</div>
+</div>
+<h3>Whitelist</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/whitelist add</code> - Add player/players to whitelist<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/whitelist remove</code> - Remove gamertag/gamertags from whitelist<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/whitelist view</code> - View Whitelist<br>
+</div>
+</div>
+<h3>Embeds</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/embed build</code> - Send a message in an embed<br>
+</div>
+</div>
+<h3>Generators</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/generate qrcode sign</code> - Supply a URL, coords and select your compass orientation to get an in-game scannable QR Code Sign<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/generate teleports file</code> - Place 2 separate items where you want the teleport location to be and the safe location to be<br>
+</div>
+</div>
+<h3>Banking</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/banking adjust all</code> - Allows an admin to give or remove money from all linked accounts.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/banking adjust user</code> - Allows an admin to give or remove money from a user&#x27;s account.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/banking help</code> - View the list of command and a brief description.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/banking leaderboard</code> - Economy leaderboard (Linked members only)<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/banking manage reset</code> - Admin command to wipe money.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/banking settings</code> - All economy/banking settings except bounties<br>
+</div>
+</div>
+<h3>Bounties</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/bounty add</code> - Add a bounty to someone<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/bounty admin clean</code> - Admin commands for bounties.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/bounty admin min</code> - Admin commands for assigning bounty minimum.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/bounty admin pay</code> - Admin commands for paying bounties.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/bounty pay</code> - Pay a bounty, either your own or someone else&#x27;s<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/bounty view</code> - View servers bounty list<br>
+</div>
+</div>
+<h3>Player / General</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/bal</code> - Check your balance<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/blackjack</code> - Play a game of blackjack<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/daily</code> - Claim your daily reward<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/deposit</code> - Deposit money to your bank<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/diceroll</code> - Play a dice roll game<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/fight</code> - Challenge a user to a fight, the loser will be timed out.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/fish</code> - Go fishing to earn money<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/global</code> - Global leaderboards<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/godmode</code> - A fake &#x27;God Mode&#x27; command for the lols<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/help</code> - Select a category to view help commands<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/info</code> - Bot information<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/leaderboard</code> - Server&#x27;s Leaderboard<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/link</code> - Link your discord to your gamertag<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/locate</code> - DM linked player their last logged location<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/mine</code> - Get stats for your selected server<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/pay</code> - Pay someone (Must have played the server)<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/plon</code> - Players online (Reply is slow for accuracy)<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/rob</code> - Rob up to 50 percentage of cash from another user<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/roulette</code> - Play a roulette game<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/rps</code> - Play a game of rock-paper-scissors<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/slots</code> - Play slots<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/stats</code> - Get stats for your selected server<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/status</code> - Get the last restart and status of all servers<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/subscribe</code> - Legion Killfeed Premium Subscription Price<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/unlink</code> - Unlink your discord from your gamertag<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/withdraw</code> - Withdraw money from your related server&#x27;s bank<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/work</code> - Work to earn money<br>
+</div>
+</div>
+<h3>Shoppi</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/shoppi admin location</code> - Set trader location for items to spawn or disable to allow anywhere<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/shoppi admin status</code> - View Shoppi Status, pending orders, etc<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/shoppi cart add</code> - Add items to cart before checkout<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/shoppi cart checkout</code> - Checkout with cart (Pay &amp; Upload json)<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/shoppi cart clear</code> - Remove items/items from cart before checkout<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/shoppi cart view</code> - View items in cart before checkout<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/shoppi config restarts</code> - Set time between restarts and whether bot restarts or not<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/shoppi config setup</code> - Setup config (requires file) and assign channels for trader<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/shoppi config start</code> - Sends config files for trader that is coming soon<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/shoppi delivery</code> - Set coords for items to spawn<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/shoppi items</code> - Sends item details, attachments, ammo, mags<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/shoppi mode</code> - Enable/Disable bot-managed restart handling for Shoppi<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/shoppi pricing</code> - Sends pricing to trader channel<br>
+</div>
+</div>
+<h3>Tickets</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/ticket close</code> - Close a thread<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/ticket colours</code> - See what colours we have available for embeds<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/ticket refresh</code> - Re-post the embeds<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/ticket setup</code> - Setup ticket system<br>
+</div>
+</div>
+<h3>Flag Map</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/flagmap setup channel</code> - Assign a channel<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/flagmap setup help</code> - Help Command for the Flag Map feature<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/flagmap setup locations</code> - assign up to 5 flag locations<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/flagmap setup mode</code> - Assign between Faction Domination and Team Conquest modes<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/flagmap setup teams</code> - Assign a flag and name for two team mode<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/flagmap view active</code> - View current setup for a flagmap<br>
+</div>
+</div>
+<h3>Types XML</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/types local boost</code> - Mass boost all nominals and mins to &#x27;x&#x27; amount, eg, boost 100 to 1000<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/types local edit</code> - Bulk Edit Local Types.XML file by category, tag, usage, or value.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/types local validate</code> - Validate Local XML file<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/types server boost</code> - Mass boost all nominals and mins to &#x27;x&#x27; amount, eg, boost 100 to 1000<br>
+</div>
+</div>
+<h3>Compare XML</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/compare types</code> - Compare your types.xml with the latest version<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/compare updates</code> - Compare your files with the latest version and get a list of updates.<br>
+</div>
+</div>
+<h3>Factions</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/faction acreate</code> - Create a faction<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/faction create</code> - Create a faction<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/faction ignorelist</code> - Add/Remove gamertag to your default ignore list<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/faction members</code> - Add/Remove/Demote faction members/admins<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/faction view</code> - View your faction embed<br>
+</div>
+</div>
+<h3>Lottery</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/lottery buy</code> - Buy a lottery ticket!<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/lottery check</code> - Registered bot command.<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/lottery draw</code> - Draw the lottery winner<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/lottery tickets</code> - Show who has purchased what ticket numbers<br>
+</div>
+</div>
+<h3>Heatmaps</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/heatmaps</code> - Heatmaps of player kills or player locations<br>
+</div>
+</div>
+<h3>Killfeed</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/killfeed support</code> - Get a discord invite to Legion Killfeed&#x27;s Support discord<br>
+</div>
+</div>
+<h3>Last Seen</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/last locations</code> - Last 30 locations for a gamertag<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/last restart</code> - Get the last restart, next restart and current players online<br>
+</div>
+</div>
+<h3>Submit</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/submit bot roast</code> - Submit Roasts To Legion Killfeed<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/submit bot suggestions</code> - Send a killfeed suggestion/feature request to Legion<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/submit bot todo</code> - Dev only command to post in to-do list<br>
+</div>
+</div>
+<h3>Wipe</h3>
+<div class="row m-1">
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/wipe cars</code> - This command does a car wipe, server restarts twice<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/wipe stats player</code> - Wipe a player stats. [WARNING: This can&#x27;t be undone!!!]<br>
+</div>
+<div class="col b-dark rounded-1 border-1 m-2 p-2">
+<code class="dsc">/wipe stats server</code> - Wipe a servers stats. [WARNING: This can&#x27;t be undone!!!]<br>
+</div>
+</div>
+</section>
+<!-- BOT-COMMAND-INVENTORY:END -->
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
 					<h5>
 						Subscriber Only Commands
@@ -297,7 +907,7 @@
 						<code class="dsc">/setup activate</code> -  Switch killfeed process back on if for any reason it's been switched off by the bot. (TOKEN USER ONLY)<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/set discord</code> -  Assign discord server (TOKEN USER ONLY)<br>
+						<code class="dsc">/setup assign discord</code> -  Assign discord server (TOKEN USER ONLY)<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -307,10 +917,10 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/reset stats player</code> - Wipe a player stats. [WARNING: This can't be undone!!!]<br>
+						<code class="dsc">/wipe stats player</code> - Wipe a player stats. [WARNING: This can't be undone!!!]<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/reset stats server</code> - Wipe a servers stats. [WARNING: This can't be undone!!!]<br>
+						<code class="dsc">/wipe stats server</code> - Wipe a servers stats. [WARNING: This can't be undone!!!]<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -320,10 +930,10 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings channels assign</code> -  Assign feed to channel (Admin+)<br>
+						<code class="dsc">/settings channel assign</code> -  Assign feed to channel (Admin+)<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings channels create</code> -  Add a channel from the list of channels for your selected server (Admin+)<br>
+						<code class="dsc">/settings channel create</code> -  Add a channel from the list of channels for your selected server (Admin+)<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -336,10 +946,10 @@
 						<code class="dsc">/admin tracker</code> - Track command usage<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings flag_logs</code> -  Flag build logs to separate channel (Admin)<br>
+						<code class="dsc">/settings configure glitchfeed</code> -  Flag build logs to separate channel (Admin)<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/legion autostart</code> -  auto restart your server if stopped for 10mins<br>
+						<code class="dsc">/scheduler settings restarts</code> -  auto restart your server if stopped for 10mins<br>
 					</div>
 				</div>
 				<div class="row m-1">
@@ -347,13 +957,13 @@
 						<code class="dsc">/settings view</code> -  View your server's settings in Legion's database.<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings admin roles</code> -  Add killfeed permission to a discord role from a list of permissions (Admin)<br>
+						<code class="dsc">/settings configure misc</code> -  Add killfeed permission to a discord role from a list of permissions (Admin)<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings linked role</code> -  Role that is assigned to members when they link their account<br>
+						<code class="dsc">/settings configure linkrole</code> -  Role that is assigned to members when they link their account<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings feeds clean</code> -  Enable/Disable purge messages for Status, Heatmaps, Leaderboards<br>
+						<code class="dsc">/settings configure misc</code> -  Enable/Disable purge messages for Status, Heatmaps, Leaderboards<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -363,19 +973,19 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings economy</code> -  All economy settings except bounties<br>
+						<code class="dsc">/banking settings</code> -  All economy settings except bounties<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings bounty</code> -  Assign your servers default bounty amount (required to enable bounty channel)<br>
+						<code class="dsc">/bounty admin min</code> -  Assign your servers default bounty amount (required to enable bounty channel)<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings plon</code> -  Enable/Disable players use of `/plon` command<br>
+						<code class="dsc">/settings playersonline</code> -  Enable/Disable players use of `/plon` command<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings set_plon_prefix</code> -  change the prefix to the players online voice channel count<br>
+						<code class="dsc">/settings configure misc</code> -  change the prefix to the players online voice channel count<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/logs autofeed</code> -  Assign Auto Download Logs Channel<br>
+						<code class="dsc">/logs auto download</code> -  Assign Auto Download Logs Channel<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -385,16 +995,16 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/legion colours view</code> - See what colours we have available for embeds<br>
+						<code class="dsc">/settings configure color</code> - See what colours we have available for embeds<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/legion colours assign</code> - Assign embed colour to be displayed on embeds where-ever there is no pre-defined embed colour<br>
+						<code class="dsc">/settings configure color</code> - Assign embed colour to be displayed on embeds where-ever there is no pre-defined embed colour<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings add logo</code> - Add or remove a logo via URL for a selected server to be displayed on embeds where-ever there is a spare image slot available<br>
+						<code class="dsc">/settings configure logo</code> - Add or remove a logo via URL for a selected server to be displayed on embeds where-ever there is a spare image slot available<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings locations</code> - Location settings for multiple feeds *a lot of options* (Admin)<br>
+						<code class="dsc">/settings configure locations</code> - Location settings for multiple feeds *a lot of options* (Admin)<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -404,13 +1014,13 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings rename</code> - Change the server's name in the killfeed<br>
+						<code class="dsc">/settings configure name</code> - Change the server's name in the killfeed<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/server details edit</code> - Change server's name/description<br>
+						<code class="dsc">/nitrado details update</code> - Change server's name/description<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/server details view</code> - View server's name & description + other details<br>
+						<code class="dsc">/nitrado details view</code> - View server's name & description + other details<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -421,16 +1031,16 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/schedule server restarts</code> - Schedule automated server restarts via bot. (WIP)<br>
+						<code class="dsc">/scheduler settings restarts</code> - Schedule automated server restarts via bot. (WIP)<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/schedule damage cancel</code> - Cancel the automated base damage scheduler (Admin)<br>
+						<code class="dsc">/scheduler damage configure</code> - Cancel the automated base damage scheduler (Admin)<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/schedule damage enabled</code> - Set the day, time and timezone for base damage to be turned on (Admin)<br>
+						<code class="dsc">/scheduler damage configure</code> - Set the day, time and timezone for base damage to be turned on (Admin)<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/schedule damage disabled</code> - Set the day, time and timezone for base damage to be turned off (Admin)<br>
+						<code class="dsc">/scheduler damage configure</code> - Set the day, time and timezone for base damage to be turned off (Admin)<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -440,10 +1050,10 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings mode autoban</code> - Autoban on Kill, Autoban on Death, No Autoban (Admin)<br>
+						<code class="dsc">/settings autoban config</code> - Autoban on Kill, Autoban on Death, No Autoban (Admin)<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/settings mode ignore</code> - Gamertags that are allowed to kill when autoban is on (Moderator)<br>
+						<code class="dsc">/settings autoban whitelist</code> - Gamertags that are allowed to kill when autoban is on (Moderator)<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -465,7 +1075,7 @@
 						<code class="dsc">/shoppi config setup</code> - Setup config (requires file) and assign channels for trader<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/shoppi config colour</code> - Set colour of embeds<br>
+						<code class="dsc">/settings configure color</code> - Set colour of embeds<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
 						<code class="dsc">/shoppi config restarts</code> - Set time between restarts and whether bot restarts or not<br>
@@ -490,7 +1100,7 @@
 						<code class="dsc">/types server boost</code> - Mass boost all nominals and mins to 'x' amount, eg, boost 100 to 1000 (Live server code)<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/updates</code> - Compare your files with the latest github version and get a list of missing items from your files (useful for updates)<br>
+						<code class="dsc">/compare updates</code> - Compare your files with the latest github version and get a list of missing items from your files (useful for updates)<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -503,10 +1113,10 @@
 						<code class="dsc">/admin getid</code> - Get the ID of a member (Usually used for devs)<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/admin search</code> - Search for a gamertag or member<br>
+						<code class="dsc">/admin player search</code> - Search for a gamertag or member<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/admin plocs</code> - Current online player locations<br>
+						<code class="dsc">/admin player locations</code> - Current online player locations<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
 						<code class="dsc">/admin force link</code> - Force link someone's discord to their gamertag<br>
@@ -517,16 +1127,16 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/base damage</code> - Turn base & container damage on/off on your server<br>
+						<code class="dsc">/file gameplay damage</code> - Turn base & container damage on/off on your server<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/car_wipe</code> - This command does a car wipe, server restarts twice<br>
+						<code class="dsc">/wipe cars</code> - This command does a car wipe, server restarts twice<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
 						<code class="dsc">/last locations</code> - Last 20 locations for a gamertag<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/legion embed</code> - Send a message in an embed (must be less than 4000 characters)<br>
+						<code class="dsc">/embed build</code> - Send a message in an embed (must be less than 4000 characters)<br>
 					</div>
 				</div>
 				<div class="row m-1">
@@ -550,16 +1160,16 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/economy amoney user</code> - Allows an admin to give or remove money from a user's account.<br>
+						<code class="dsc">/banking adjust user</code> - Allows an admin to give or remove money from a user's account.<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/economy amoney all</code> - Allows an admin to give or remove money from all linked accounts.<br>
+						<code class="dsc">/banking adjust all</code> - Allows an admin to give or remove money from all linked accounts.<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/economy amoney reset</code> - Allows an admin to wipe money on.<br>
+						<code class="dsc">/banking manage reset</code> - Allows an admin to wipe money on.<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/economy amoney default</code> - Allows an admin to assign default balances.<br>
+						<code class="dsc">/banking settings</code> - Allows an admin to assign default balances.<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -569,7 +1179,7 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/gameplay edit</code> - Edit your cfggameplay.json file for your selected server (Add or Remove) spawn gear/object spawner files in the cfggameplay.json file<br>
+						<code class="dsc">/file gameplay edit</code> - Edit your cfggameplay.json file for your selected server (Add or Remove) spawn gear/object spawner files in the cfggameplay.json file<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
 						<code class="dsc">/admin spawner add</code> - Add items to spawn in via Events.xml & CfgEventSpawns.xml<br>
@@ -578,10 +1188,10 @@
 						<code class="dsc">/admin spawner remove</code> - Remove items from spawn via Events.xml & CfgEventSpawns.xml<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/generate teleports</code> - Place 2 separate items where you want the teleport location to be and the safe location to be<br>
+						<code class="dsc">/generate teleports file</code> - Place 2 separate items where you want the teleport location to be and the safe location to be<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/generate qrcode</code> - Supply a URL, coords and select your compass orientation to get an in-game scannable QR Code Sign<br>
+						<code class="dsc">/generate qrcode sign</code> - Supply a URL, coords and select your compass orientation to get an in-game scannable QR Code Sign<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -591,36 +1201,36 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/webinterface update</code> - Update options on Nitrado's web interface<br>
+						<code class="dsc">/nitrado dashboard settings</code> - Update options on Nitrado's web interface<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/webinterface tasks list</code> - View your servers Nitrado-handled automated tasks<br>
+						<code class="dsc">/nitrado tasks list</code> - View your servers Nitrado-handled automated tasks<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/webinterface tasks add</code> - Add Nitrado-handled automated tasks<br>
+						<code class="dsc">/nitrado tasks add</code> - Add Nitrado-handled automated tasks<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/webinterface tasks delete</code> - Delete Nitrado-handled automated tasks from your server<br>
+						<code class="dsc">/nitrado tasks delete</code> - Delete Nitrado-handled automated tasks from your server<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/webinterface upload</code> - Upload file to folder on your server<br>
+						<code class="dsc">/file upload</code> - Upload file to folder on your server<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/webinterface download</code> - Download file from any folder on your server<br>
+						<code class="dsc">/file download</code> - Download file from any folder on your server<br>
 					</div>
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/legion restart</code> - Restart your server<br>
+						<code class="dsc">/server restart</code> - Restart your server<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/legion stop</code> - Stop your server<br>
+						<code class="dsc">/server stop</code> - Stop your server<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/legion remove</code> - Remove stop/restart file<br>
+						<code class="dsc">/server delete stop</code> - Remove stop/restart file<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/legion restartloop</code> - Break a restart loop for your server<br>
+						<code class="dsc">/server break loop</code> - Break a restart loop for your server<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -630,16 +1240,16 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/base radar add</code> - Create a base radar for your selected server<br>
+						<code class="dsc">base radar setup (current bot has no public slash command)</code> - Create a base radar for your selected server<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/base radar edit</code> - Edit a base radar for your selected server<br>
+						<code class="dsc">base radar edit (current bot has no public slash command)</code> - Edit a base radar for your selected server<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/base radar delete</code> - Delete a base radar from your selected server<br>
+						<code class="dsc">base radar delete (current bot has no public slash command)</code> - Delete a base radar from your selected server<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/base radar list</code> - List base radars for your selected server<br>
+						<code class="dsc">base radar list (current bot has no public slash command)</code> - List base radars for your selected server<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -665,19 +1275,19 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/heatmap Kills</code> -  PVP kills heatmap<br>
+						<code class="dsc">/heatmaps</code> -  PVP kills heatmap<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/heatmap Damage</code> -  PVP damage heatmap<br>
+						<code class="dsc">/heatmaps</code> -  PVP damage heatmap<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/heatmap Locations</code> -  Heatmap of player locations<br>
+						<code class="dsc">/heatmaps</code> -  Heatmap of player locations<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/heatmap Pinmap</code> -  Pinpoint map of player locations<br>
+						<code class="dsc">/heatmaps</code> -  Pinpoint map of player locations<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/heatmap Nitrado Usage</code> -  CPU/Ram usage<br>
+						<code class="dsc">/heatmaps</code> -  CPU/Ram usage<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -692,13 +1302,13 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/add info_whitelist</code> - No description provided.<br>
+						<code class="dsc">extra whitelist info (current bot has no public slash command)</code> - No description provided.<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/add upload_whitelist</code> - Upload a file to add gamertags to the whitelist<br>
+						<code class="dsc">whitelist upload (current bot command is commented out)</code> - Upload a file to add gamertags to the whitelist<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/remove rebuild_whitelist</code> - Rebuild Whitelist<br>
+						<code class="dsc">whitelist rebuild (current bot command is commented out)</code> - Rebuild Whitelist<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -708,13 +1318,13 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/add ban</code> - Ban gamertag/gamertags<br>
+						<code class="dsc">/ban add</code> - Ban gamertag/gamertags<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/remove ban</code> - Unban gamertag/gamertags<br>
+						<code class="dsc">/ban remove</code> - Unban gamertag/gamertags<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/view bans</code> - View banlist<br>
+						<code class="dsc">/ban view</code> - View banlist<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -724,13 +1334,13 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/add whitelist</code> - Whitelist gamertag/gamertags<br>
+						<code class="dsc">/whitelist add</code> - Whitelist gamertag/gamertags<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/remove whitelist</code> - Unwhitelist gamertag/gamertags<br>
+						<code class="dsc">/whitelist remove</code> - Unwhitelist gamertag/gamertags<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/view whitelist</code> - View Whitelist<br>
+						<code class="dsc">/whitelist view</code> - View Whitelist<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -740,13 +1350,13 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/add priority</code> - Prioritize gamertag/gamertags<br>
+						<code class="dsc">/priority add</code> - Prioritize gamertag/gamertags<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/remove priority</code> - Unpriority gamertag/gamertags<br>
+						<code class="dsc">/priority remove</code> - Unpriority gamertag/gamertags<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/view priority</code> - View priority list<br>
+						<code class="dsc">/priority view</code> - View priority list<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -765,7 +1375,7 @@
 						<code class="dsc">/info</code> - Bot information<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/killfeed advert</code> - Legion Killfeed Advertisement<br>
+						<code class="dsc">/info</code> - Legion Killfeed Advertisement<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
 						<code class="dsc">/killfeed support</code> - Get a discord invite to Legion Killfeed's Support discord<br>
@@ -773,7 +1383,7 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/bug</code> - Submit a bug report to the developers<br>
+						<code class="dsc">/submit bot suggestions</code> - Submit a bug report to the developers<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
 						<code class="dsc">/fight</code> - Challenge a user to a fight, the loser will be timed out.<br>
@@ -825,10 +1435,10 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/legion submit suggestion</code> - Send a killfeed suggestion/feature request to Legion's discord<br>
+						<code class="dsc">/submit bot suggestions</code> - Send a killfeed suggestion/feature request to Legion's discord<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/legion submit roast</code> - Submit `Death Roasts` for victim insults to Legion's discord<br>
+						<code class="dsc">/submit bot roast</code> - Submit `Death Roasts` for victim insults to Legion's discord<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -860,13 +1470,13 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/base ignore add</code> - Add a gamertag to the base radar ignore list<br>
+						<code class="dsc">base radar ignore add (current bot has no public slash command)</code> - Add a gamertag to the base radar ignore list<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/base ignore remove</code> - Remove a gamertag from the base radar ignore list<br>
+						<code class="dsc">base radar ignore remove (current bot has no public slash command)</code> - Remove a gamertag from the base radar ignore list<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/base ignore info</code> - List base radar info your current channel's base radar.<br>
+						<code class="dsc">base radar ignore info (current bot has no public slash command)</code> - List base radar info your current channel's base radar.<br>
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
@@ -876,10 +1486,10 @@
 				</div>
 				<div class="row m-1">
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/economy help</code> - View the list of command and a brief description.<br>
+						<code class="dsc">/banking help</code> - View the list of command and a brief description.<br>
 					</div>
 					<div class="col b-dark rounded-1 border-1 m-2 p-2">
-						<code class="dsc">/economy leaderboard</code> - Economy leaderboard (Linked members only)<br>
+						<code class="dsc">/banking leaderboard</code> - Economy leaderboard (Linked members only)<br>
 					</div>
 				</div>
 				<div class="row m-1">
@@ -954,7 +1564,7 @@
 					</div>
 				</div>
 				<div class="row b-dark rounded-1 border-1 m-2 p-4">
-					<h4>If you are not redirected, <a href="https://github.com/Legion-Killfeed/DayZ/wiki/English#subscriber-additional">click here</a>.</h4>
+					<h4>If you are not redirected, <a href="https://killfeed.co/commands">click here</a>.</h4>
 				</div>
 			</div>
 			<nav class="footbar">
@@ -985,7 +1595,7 @@
 						<button type="button" class="btn text-light" data-bs-dismiss="modal" aria-label="Close">❌</button>
 					</div>
 					<div class="modal-body">
-						&copy; 2022-2025 Legion Killfeed. All Rights Reserved.<br>
+						&copy; 2022-2026 Legion Killfeed. All Rights Reserved.<br>
 						<p>This website and its content, including but not limited to text, graphics, images, logos, icons, and software, are the property of Legion Killfeed and are protected by Australian and international copyright laws.</p>
 						<br><p><strong>Rights Reserved:</strong> No part of this website may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the copyright owner, except in the case of brief quotations embodied in legitimate critical reviews and certain other non-commercial uses permitted by copyright law.</p>
 						<br><p><strong>Disclaimer:</strong> All trademarks, logos, and service marks displayed on this site are the property of their respective owners. Use of these marks does not imply any affiliation with or endorsement by them.</p>

@@ -1,45 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legion-pedia</title>
-	<meta name="theme-color" content="#ba9849">
-
-    <!-- Open Graph Meta Tags for Discord Embed -->
-    <meta property="og:locale:" content="de_DE"> <!-- German -->
-    <meta property="og:title" content="Legion-pedia | Legion Killfeed Discord Bot's Wikipedia">
-    <meta property="og:description" content="Umfassende Wikipedia/Anleitung zu den Einstellungen und Konfigurationen von Legion Killfeed für ihren Discord-Bot.
-Diese Wikipedia enthält:
-✅ Sortierte Befehle
-✅ Detaillierte Erklärungen
-✅ FAQs und häufig gestellte Fragen
-✅ 7 Sprachen: 🇪🇳 🇪🇸 🇫🇷 🇩🇪 🇷🇺 🇮🇹 🇦🇪">
-    <meta property="og:image" content="https://killfeed.co/a/i/Legionpedia.gif">
-    <meta property="og:url" content="https://github.com/Legion-Killfeed/DayZ/wiki/German">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large">
-    <meta name="twitter:title" content="Legion-pedia | Legion Killfeed Discord Bot's Wikipedia">
-    <meta name="twitter:description" content="Umfassende Wikipedia/Anleitung zu den Einstellungen und Konfigurationen von Legion Killfeed für ihren Discord-Bot.
-Diese Wikipedia enthält:
-✅ Sortierte Befehle
-✅ Detaillierte Erklärungen
-✅ FAQs und häufig gestellte Fragen
-✅ 7 Sprachen: 🇪🇳 🇪🇸 🇫🇷 🇩🇪 🇷🇺 🇮🇹 🇦🇪">
-    <meta name="twitter:image" content="https://killfeed.co/a/i/Legionpedia.gif">
-    
-    <!-- Auto Redirect to GitHub wiki/German -->
-    <meta http-equiv="refresh" content="0; url=https://github.com/Legion-Killfeed/DayZ/wiki/German">
-    <link rel="alternate" hreflang="en" href="https://legion-killfeed.github.io/DayZ" />
-    <link rel="alternate" hreflang="fr" href="https://legion-killfeed.github.io/DayZ/fr" />
-    <link rel="alternate" hreflang="de" href="https://legion-killfeed.github.io/DayZ/de/" />
-    <link rel="alternate" hreflang="es" href="https://legion-killfeed.github.io/DayZ/es/" />
-    <link rel="alternate" hreflang="it" href="https://legion-killfeed.github.io/DayZ/it/" />
-    <link rel="alternate" hreflang="ru" href="https://legion-killfeed.github.io/DayZ/ru/" />
-    <link rel="alternate" hreflang="ae" href="https://legion-killfeed.github.io/DayZ/ae/" />
+    <meta name="theme-color" content="#ba9849">
+    <title>Legion-pedia | Legion Killfeed Wiki, FAQ, Bewertungen und Vertrauenshinweis</title>
+    <meta name="description" content="Legion-pedia ist die Legion Killfeed Wissensbasis für DayZ Konsolenserver mit Discord, Nitrado, Killfeeds, Statistiken, Servertools, FAQ, Bewertungen und Setup-Anleitungen.">
+    <meta name="keywords" content="Legion Killfeed, Legion-pedia, DayZ Killfeed, DayZ Discord Bot, DayZ Konsolenserver, Nitrado, DayZ Tools, Legion Killfeed Bewertungen, Legion Killfeed FAQ, DayZ XML">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="https://legion-killfeed.github.io/DayZ/de.html">
+    <link rel="alternate" hreflang="en" href="https://legion-killfeed.github.io/DayZ/">
+    <link rel="alternate" hreflang="fr" href="https://legion-killfeed.github.io/DayZ/fr.html">
+    <link rel="alternate" hreflang="de" href="https://legion-killfeed.github.io/DayZ/de.html">
+    <link rel="alternate" hreflang="es" href="https://legion-killfeed.github.io/DayZ/es.html">
+    <link rel="alternate" hreflang="it" href="https://legion-killfeed.github.io/DayZ/it.html">
+    <link rel="alternate" hreflang="ru" href="https://legion-killfeed.github.io/DayZ/ru.html">
+    <link rel="alternate" hreflang="ar-AE" href="https://legion-killfeed.github.io/DayZ/ae.html">
+    <link rel="alternate" hreflang="x-default" href="https://legion-killfeed.github.io/DayZ/">
+    <link rel="icon" href="https://killfeed.co/favicon.ico">
+    <link rel="apple-touch-icon" href="https://killfeed.co/images/favicons/apple-touch-icon.png">
+    <link rel="shortcut icon" href="https://killfeed.co/favicon.ico">
+    <meta name="msapplication-TileImage" content="https://killfeed.co/images/favicons/favicon-512x512.png">
+    <link rel="stylesheet" href="./new.css">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Legion-pedia">
+    <meta property="og:title" content="Legion-pedia | Legion Killfeed Wiki, FAQ und Bewertungen">
+    <meta property="og:description" content="Offizielle Legion Killfeed Wissensbasis für Befehle, Setup, FAQ, Bewertungen, Nitrado, Servertools und Datentransparenz.">
+    <meta property="og:image" content="https://killfeed.co/images/LegionKillfeed.gif">
+    <meta property="og:image:alt" content="Legion Killfeed logo and wiki artwork">
+    <meta property="og:url" content="https://legion-killfeed.github.io/DayZ/de.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://killfeed.co/images/LegionKillfeed.gif">
+    <meta name="twitter:image:alt" content="Legion Killfeed logo and wiki artwork">
 </head>
-<body style="background-color: #313131; color: #99c4ee">
-    <p>Wenn Sie nicht weitergeleitet werden, <a href="https://github.com/Legion-Killfeed/DayZ/wiki/German" style="color: #dbb3fc">klicken Sie hier</a>.</p>
+<body class="trust-page">
+    <main class="trust-shell">
+        <section class="trust-hero">
+            <img class="trust-logo" src="https://killfeed.co/images/logo.gif" alt="Legion Killfeed logo" loading="eager" decoding="async">
+            <p class="trust-eyebrow">Offizielle Legion Killfeed Wissensbasis</p>
+            <h1>Legion-pedia: Wiki, Befehle, FAQ, Bewertungen und Vertrauenshinweis</h1>
+            <p>Legion-pedia unterstützt Besitzer von DayZ Xbox- und PlayStation-Servern, die Legion Killfeed für Discord-Killfeeds, Nitrado-Integration, Logverarbeitung, Statistiken, Heatmaps, Base Radar, Servertools und XML-Werkzeuge nutzen.</p>
+            <div class="trust-actions">
+                <a class="trust-button" href="https://github.com/Legion-Killfeed/DayZ/wiki/German">Deutsches Wiki öffnen</a>
+                <a class="trust-button" href="./commands.html">Befehle</a>
+                <a class="trust-button" href="https://killfeed.co/reviews">Bewertungen</a>
+            </div>
+        </section>
+        <section class="trust-grid">
+            <article class="trust-card trust-card--wide">
+                <h2>Sonderankündigung</h2>
+                <p>Ich bestreite kategorisch die Behauptung, dass Legion Killfeed Kundendateien oder Serverdaten sammelt, verkauft, missbraucht, veröffentlicht oder zweckentfremdet.</p>
+                <p>Diese Behauptung ist falsch, böswillig und geschäftsschädigend. Sie ist keine Bewertung und keine Meinung; sie ist eine Tatsachenbehauptung über Fehlverhalten, die von Wettbewerbern und mit Wettbewerbern verbundenen Konten verbreitet wurde, um Vertrauen in Legion Killfeed zu beschädigen.</p>
+                <p>Legion Killfeed nutzt Zugriff nur für Funktionen, die Kunden autorisieren, einschließlich Nitrado-Integration, Logverarbeitung, Servertools, Killfeeds, Statistiken und verwandte Bot-Funktionen.</p>
+                <p>XML-Dateien sind keine wertvollen Edelsteine; sie sind leicht zu erstellen. Ich weiß nicht, wer dafür zahlen würde, aber ich habe nie Dateien verkauft. Ich gebe meine eigenen Dateien regelmäßig weiter.</p>
+                <p>Beweise sind verfügbar, darunter technischer Kontext, Aufzeichnungen, Zeitlinien, Screenshots und Nachweise zur Quelle und zum Muster dieser Anschuldigungen. Wer solche Behauptungen wiederholt, sollte Beweise verlangen, statt anonyme Reddit-Kommentare, Wettbewerberseiten oder Forenangriffe als Fakten zu behandeln.</p>
+                <div class="trust-actions">
+                    <a class="trust-button" href="https://they-wish-i.died.space">Beweise ansehen</a>
+                    <a class="trust-button" href="https://share.google/ozE8X655mIr6w4v5R">Google-Beitrag</a>
+                </div>
+            </article>
+            <article class="trust-card"><h2>Autorisierter Zugriff</h2><p>Zugriff wird für Nitrado-Setup, Logs, Killfeed-Embeds, Statistiken, Tools, geplante Aktionen und autorisierten Support genutzt.</p></article>
+            <article class="trust-card"><h2>DayZ Servertools</h2><p>Das Wiki behandelt Befehle, Wirtschaft, Base Radar, Heatmaps, Dateibearbeitung, XML-Prüfung, Kanäle und Automatisierung.</p></article>
+            <article class="trust-card"><h2>Organische Suche</h2><p>Legion Killfeed wirbt Communities nicht direkt an. Serverbesitzer finden Legion über Website, Wiki, Discord, Bewertungen und Tools.</p></article>
+            <article class="trust-card trust-card--wide"><h2>FAQ</h2><ul class="trust-list"><li><strong>Ist Legion Killfeed für DayZ Konsole?</strong> Ja, für Konsolen-Communities mit Discord und Nitrado.</li><li><strong>Werden Logs verarbeitet?</strong> Ja, autorisierte Logs werden für Killfeeds, PVP/PVE-Statistiken, Aktivität und Administration verarbeitet.</li><li><strong>Wo sind Bewertungen?</strong> Auf killfeed.co/reviews und Trustpilot.</li></ul></article>
+            <article class="trust-card trust-card--wide">
+                <h2>Bewertungsthemen</h2>
+                <div class="trust-reviews">
+                    <div class="trust-review"><strong>Support</strong> Kunden berichten regelmäßig über schnelle Einrichtungshilfe, praktische Fehlerbehebung und direkten Discord-Support.</div>
+                    <div class="trust-review"><strong>Zuverlässigkeit</strong> Bewertungen heben stabile Killfeeds, nützliche Serverautomatisierung und klare Befehls-Workflows hervor.</div>
+                    <div class="trust-review"><strong>Funktionstiefe</strong> Serverbesitzer nennen Statistiken, visuelle Feeds, Base Radar, Wirtschaft, Heatmaps und Nitrado-Tools.</div>
+                </div>
+                <p class="trust-note">Für Bewertungsquellen und Screenshots die offizielle Bewertungsseite nutzen, nicht anonyme Foren.</p>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
