@@ -3,33 +3,33 @@
 <table>
   <tr>
     <td colspan="2">
-      <a href="https://killfeed.co/"><img src="https://killfeed.co/a/i/lkb.png" alt="Legion Killfeed Banner"></a>
+      <a href="https://killfeed.co/"><img src="https://killfeed.co/images/favicons/LegionNewHeader.png" alt="Legion Killfeed Banner"></a>
     </td>
   </tr>
   <tr>
-    <td><img src="https://killfeed.co/a/i/LK.gif" alt="Legion Killfeed Logo"></td>
-    <td rowspan="6"><a href="https://www.trustpilot.com/review/killfeed.co"><img src="https://i.ibb.co/VYG3WVvg/Legion-Best.png" alt="Legion Killfeed is rated the best"></a></td>
+    <td><img src="https://killfeed.co/images/logo.webp" alt="Legion Killfeed Logo"></td>
+    <td rowspan="6"><a href="https://www.trustpilot.com/review/killfeed.co"><img src="https://killfeed.co/images/favicons/LegionTile.png" alt="Legion Killfeed is rated the best"></a></td>
   </tr>
   <tr>
-    <td><a href="https://discord.gg/LegionKillfeed"><img src="https://killfeed.co/a/gh/LegionCord.png" alt="Discord for Legion Killfeed"></a></td>
+    <td><a href="https://discord.gg/LegionKillfeed"><img src="https://killfeed.co/images/misc/LegionCord.png" alt="Discord for Legion Killfeed"></a></td>
   </tr>
   <tr>
-    <td><a href="https://ko-fi.com/LegionKillfeed"><img src="https://killfeed.co/a/gh/LegionFi.png" alt="KoFi for Legion Killfeed"></a></td>
+    <td><a href="https://ko-fi.com/LegionKillfeed"><img src="https://killfeed.co/images/misc/LegionFi.png" alt="KoFi for Legion Killfeed"></a></td>
   </tr>
   <tr>
-    <td><a href="https://www.tiktok.com/@legionkillfeed"><img src="https://killfeed.co/a/gh/LegionTok.png" alt="TikTok for Legion Killfeed"></a></td>
+    <td><a href="https://www.tiktok.com/@legionkillfeed"><img src="https://killfeed.co/images/misc/LegionTok.png" alt="TikTok for Legion Killfeed"></a></td>
   </tr>
   <tr>
-    <td><a href="https://youtube.com/@LegionKillfeed"><img src="https://killfeed.co/a/gh/LegionTube.png" alt="YouTube for Legion Killfeed"></a></td>
+    <td><a href="https://youtube.com/@LegionKillfeed"><img src="https://killfeed.co/images/misc/LegionTube.png" alt="YouTube for Legion Killfeed"></a></td>
   </tr>
   <tr>
-    <td><a href="https://PayPal.Me/CoderSoul"><img src="https://killfeed.co/a/gh/LegionPay.png" alt="Donate Via PayPal to Legion Killfeed"></a></td>
+    <td><a href="https://PayPal.Me/CoderSoul"><img src="https://killfeed.co/images/misc/LegionPay.png" alt="Donate Via PayPal to Legion Killfeed"></a></td>
   </tr>
 </table>
 
 | <sub>[Legion Killfeed's Wiki](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> | <sub>[Wiki de Killfeed de Legion](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> | <sub>[Википедия Легиона Киллфида](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> | <sub>[Wikipedia di Legion Killfeed](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> |
 |------|------|------|------|
-| <sub>[Wikipédia de Legion Killfeed](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> | <sub>[ويكيبيديا Legion Killfeed](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> | <sub>[Wikipedia zum Legion Killfeed](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> | <sub>[![UserManual](https://i.ibb.co/XZ2NDXqg/User-Manual-Icon.png)](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> |
+| <sub>[Wikipédia de Legion Killfeed](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> | <sub>[ويكيبيديا Legion Killfeed](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> | <sub>[Wikipedia zum Legion Killfeed](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> | <sub>[![UserManual](https://killfeed.co/images/favicons/logo-512.svg)](https://github.com/Legion-Killfeed/DayZ/wiki/Home)</sub> |
 
 > [!NOTE]
 > Here are some additional DayZ tools and information.  
@@ -51,7 +51,7 @@
   - [Subscriber Only](https://github.com/Legion-Killfeed/DayZ/wiki/English/#subscriber-only)
   - [Setup](https://github.com/Legion-Killfeed/DayZ/wiki/English/#subscriber-setup)
   - [Additional Settings](https://github.com/Legion-Killfeed/DayZ/wiki/English/#subscriber-additional)
-  - [Admin](https://github.com/Legion-Killfeed/DayZ/wiki//#admin)
+  - [Admin](https://github.com/Legion-Killfeed/DayZ/wiki/English/#admin)
   - [Killfeed Settings](https://github.com/Legion-Killfeed/DayZ/wiki/English/#killfeed-settings)
   - [Server Styling](https://github.com/Legion-Killfeed/DayZ/wiki/English/#server-styling)
   - [Server Naming](https://github.com/Legion-Killfeed/DayZ/wiki/English/#server-naming)
